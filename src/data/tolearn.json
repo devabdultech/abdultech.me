@@ -6,37 +6,30 @@
     },
     {
         "id": 2,
-        "name": "Kubernetes",
-        "url": "https://x.com/official_abdult"
+        "name": "Kubernetes"
     },
     {
         "id": 3,
-        "name": "Turborepo",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Turborepo"
     },
     {
         "id": 4,
-        "name": "Dart",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Dart"
     },
     {
         "id": 5,
-        "name": "Flutter",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Flutter"
     },
     {
         "id": 6,
-        "name": "Deno",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Deno"
     },
     {
         "id": 7,
-        "name": "Bun",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Bun"
     },
     {
         "id": 8,
-        "name": "Go",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Go"
     }
 ]

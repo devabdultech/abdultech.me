@@ -1,0 +1,13 @@
+<div
+	id="projects"
+	class="mb-16 scroll-mt-16 lg:min-h-screen text-textPrimary lg:scroll-mt-24 font-space"
+>
+	<h1 class="text-3xl lg:text-3xl font-bold mb-4 font-inter">What I've built</h1>
+	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
+		My main focus these days is dreaming up, creating and working on ideas I find interesting, that
+		is what gives me the utmost joy. Despite challenges, I persistently learn and explore to bring
+		these visions to life. Also, drawing inspiration from talented developers. I proudly present a
+		collection of projects that have sparked my interest and consumed my passion, I hope you love
+		them :)
+	</p>
+</div>

@@ -1,42 +1,34 @@
 [
     {
         "id": 1,
-        "name": "Javascript",
-        "url": "https://github.com/Abdulhamed735"
+        "name": "Javascript"
     },
     {
         "id": 2,
-        "name": "Typescript",
-        "url": "https://x.com/official_abdult"
+        "name": "Typescript"
     },
     {
         "id": 3,
-        "name": "Python",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Python"
     },
     {
         "id": 4,
-        "name": "React",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "React"
     },
     {
         "id": 5,
-        "name": "Svelte",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Svelte"
     },
     {
         "id": 6,
-        "name": "TailwindCSS",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "TailwindCSS"
     },
     {
         "id": 7,
-        "name": "Bootstrap",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Bootstrap"
     },
     {
         "id": 8,
-        "name": "MUI",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "MUI"
     }
 ]

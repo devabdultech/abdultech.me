@@ -1,42 +1,34 @@
 [
     {
         "id": 1,
-        "name": "Node.js",
-        "url": "https://github.com/Abdulhamed735"
+        "name": "Node.js"
     },
     {
         "id": 2,
-        "name": "Express",
-        "url": "https://x.com/official_abdult"
+        "name": "Express"
     },
     {
         "id": 3,
-        "name": "MongoDB",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "MongoDB"
     },
     {
         "id": 4,
-        "name": "PostgreSQL",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "PostgreSQL"
     },
     {
         "id": 5,
-        "name": "MySQL",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "MySQL"
     },
     {
         "id": 6,
-        "name": "Redis",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Redis"
     },
     {
         "id": 7,
-        "name": "Firebase",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Firebase"
     },
     {
         "id": 8,
-        "name": "Supabase",
-        "url": "https://instagram.com/official_abdultech"
+        "name": "Supabase"
     }
 ]
