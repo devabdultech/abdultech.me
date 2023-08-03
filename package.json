@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lucide-svelte": "^0.263.0"
+		"lucide-svelte": "^0.263.0",
+		"use-lanyard": "^1.4.4"
 	}
 }

@@ -8,6 +8,9 @@ dependencies:
   lucide-svelte:
     specifier: ^0.263.0
     version: 0.263.0(svelte@4.1.2)
+  use-lanyard:
+    specifier: ^1.4.4
+    version: 1.4.4
 
 devDependencies:
   '@playwright/test':
@@ -2432,6 +2435,11 @@ packages:
     dependencies:
       punycode: 2.3.0
     dev: true
+
+  /use-lanyard@1.4.4:
+    resolution: {integrity: sha512-QceDXahv4LlEt+0cTbLwOTgeCA+83BEi26m//2mu/bZkmiHyiF3ZsUYGeukkc0cCLwGm4mm5XVgy71YO6PINxQ==}
+    engines: {node: '>=14'}
+    dev: false
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}

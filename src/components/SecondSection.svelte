@@ -1,1 +1,7 @@
-<section class="w-full lg:w-[50%]">Second</section>
+<script>
+	import About from './ui/About.svelte';
+</script>
+
+<section class="w-full lg:overflow-y-auto">
+	<About />
+</section>
