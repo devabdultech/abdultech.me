@@ -1,4 +1,4 @@
-<div id="about" class="mb-16 scroll-mt-16 lg:min-h-screen lg:scroll-mt-24">
+<div id="about" class="mb-16 scroll-mt-16 lg:min-h-screen text-textPrimary lg:scroll-mt-24">
 	<!-- <div
 		class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
 	>
@@ -17,8 +17,8 @@
 
 		<p class="">
 			Being a developer is not just a job for me; it's a way of life. I'm always exploring new ideas
-			and experimenting with different projects.I always strive to push the boundaries and improve
-			my craft.I aim for greatness in everything I create.
+			and experimenting with different technologies.I always strive to push the boundaries and
+			improve my craft.I aim for greatness in everything I create.
 		</p>
 
 		<p class="">

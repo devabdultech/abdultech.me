@@ -6,7 +6,7 @@ import '@fontsource-variable/inter'; */
 @tailwind utilities;
 
 body {
-	@apply bg-gradient-to-r from-[#161d1a] from-10%  to-background to-90% w-full h-full;
+	@apply bg-grainy-overlay  from-[#161d1a] from-10%  to-background to-90% w-full h-full;
 	width: 100%;
 	height: 100%;
 }

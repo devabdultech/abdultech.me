@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "name": "Node.js",
+        "name": "Docker",
         "url": "https://github.com/Abdulhamed735"
     },
     {
         "id": 2,
-        "name": "Express",
+        "name": "Kubernetes",
         "url": "https://x.com/official_abdult"
     },
     {
         "id": 3,
-        "name": "MongoDB",
+        "name": "Turborepo",
         "url": "https://instagram.com/official_abdultech"
     },
     {
         "id": 4,
-        "name": "PostgreSQL",
+        "name": "Dart",
         "url": "https://instagram.com/official_abdultech"
     },
     {
         "id": 5,
-        "name": "MySQL",
+        "name": "Flutter",
         "url": "https://instagram.com/official_abdultech"
     },
     {
         "id": 6,
-        "name": "Redis",
+        "name": "Deno",
         "url": "https://instagram.com/official_abdultech"
     },
     {
         "id": 7,
-        "name": "Firebase",
+        "name": "Bun",
         "url": "https://instagram.com/official_abdultech"
     },
     {
         "id": 8,
-        "name": "Supabase",
+        "name": "Go",
         "url": "https://instagram.com/official_abdultech"
     }
 ]
