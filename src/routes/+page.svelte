@@ -9,15 +9,14 @@
 	<title>AbdulTech</title>
 </svelte:head>
 
-<main
-	class="w-full flex flex-col p-3 lg:px-24 lg:py-32 text-textPrimary mx-auto min-h-screen max-w-screen-xl md:px-12 md:py-20"
->
-	<div class="lg:flex lg:justify-between lg:gap-4">
-		<div class="lg:w-1/2 lg:sticky lg:top-0 lg:pr-5">
+<main class="relative">
+	<div
+		class="mx-auto min-h-screen max-w-screen-3xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
+	>
+		<div class="lg:flex lg:justify-between lg:gap-4">
 			<!-- First section -->
 			<FirstSection />
-		</div>
-		<div class="lg:w-1/2">
+
 			<!-- Second section -->
 			<SecondSection />
 		</div>
