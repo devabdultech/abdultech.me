@@ -8,7 +8,7 @@
 </script>
 
 <div id="stack" class="mb-16 scroll-mt-16 lg:min-h-screen lg:scroll-mt-24 text-textPrimary">
-	<h1 class="text-3xl lg:text-3xl font-bold font-souvenir mb-4">Tech stack</h1>
+	<h1 class="text-3xl lg:text-3xl font-bold font-souvenir mb-4 font-inter">Tech stack</h1>
 	<p>
 		In the realm of code, my primary stack encompasses Javascript and TypeScript, harmoniously
 		weaving their magic in web development. From Node to React, Next.js to Expresss, and exploring
