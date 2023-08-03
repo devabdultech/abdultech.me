@@ -4,7 +4,7 @@
 	import Button from './ui/Button.svelte';
 </script>
 
-<section class="w-full lg:sticky lg:top-0 lg:max-h-screen lg:pr-5">
+<section class="w-full lg:pr-5">
 	<div class="flex flex-col gap-3">
 		<a href="/" on:click={() => goto('/')}>
 			<h1

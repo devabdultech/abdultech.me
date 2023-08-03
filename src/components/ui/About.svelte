@@ -11,9 +11,8 @@
 
 		<p class="">
 			Being a developer is not just a job for me; it's a way of life. I'm always exploring new ideas
-			and experimenting with different projects. Some of my experiments might stay private on my
-			GitHub profile, but I always strive to push the boundaries and improve my craft. For me,
-			"good" isn't enough; I aim for greatness in everything I create.
+			and experimenting with different projects.I always strive to push the boundaries and improve
+			my craft.I aim for greatness in everything I create.
 		</p>
 
 		<p class="">
