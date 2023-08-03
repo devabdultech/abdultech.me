@@ -1,5 +1,7 @@
 <div id="about" class="">
-	<h1 class="text-3xl lg:text-3xl font-bold font-souvenir mb-4">Hey there, I'm Abdulhameed! 👋</h1>
+	<h1 class="text-3xl lg:text-3xl font-bold font-souvenir mb-4 font-space-grotesk">
+		Hey there, I'm Abdulhameed! 👋
+	</h1>
 
 	<div class="text-base leading-relaxed text-slate-200 flex flex-col gap-4">
 		<p class="">

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Node.js",
+        "url": "https://github.com/Abdulhamed735"
+    },
+    {
+        "id": 2,
+        "name": "Express",
+        "url": "https://x.com/official_abdult"
+    },
+    {
+        "id": 3,
+        "name": "MongoDB",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 4,
+        "name": "PostgreSQL",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 5,
+        "name": "Redis",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 6,
+        "name": "Firebase",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 7,
+        "name": "Supabase",
+        "url": "https://instagram.com/official_abdultech"
+    }
+]

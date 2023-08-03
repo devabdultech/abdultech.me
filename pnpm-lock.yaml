@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/inter':
+    specifier: ^5.0.6
+    version: 5.0.6
+  '@fontsource-variable/space-grotesk':
+    specifier: ^5.0.6
+    version: 5.0.6
   lucide-svelte:
     specifier: ^0.263.0
     version: 0.263.0(svelte@4.1.2)
@@ -327,6 +333,14 @@ packages:
     resolution: {integrity: sha512-a8TLtmPi8xzPkCbp/OGFUo5yhRkHM2Ko9kOWP4znJr0WAhWyThaw3PnwX4vOTWOAMsV2uRt32PPDcEz63esSaA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource-variable/inter@5.0.6:
+    resolution: {integrity: sha512-mFU2iEcG0pWKVA3hZ26tEyZj0wd6qaXIFE9+MK5B36GuzfqZFgm7L2+g6zjbLWfggU1G1NDU46ZwX0hPIVieoQ==}
+    dev: false
+
+  /@fontsource-variable/space-grotesk@5.0.6:
+    resolution: {integrity: sha512-paWRR5BiofLnkaEXXaHnfrc5czVKlfNufri43n632ZnuPFVSiJhty8KlaofA0tiS9hGRi9IBG/Vt69acf1pJmA==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.10:
     resolution: {integrity: sha512-KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==}

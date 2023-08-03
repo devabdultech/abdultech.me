@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Javascript",
+        "url": "https://github.com/Abdulhamed735"
+    },
+    {
+        "id": 2,
+        "name": "Typescript",
+        "url": "https://x.com/official_abdult"
+    },
+    {
+        "id": 3,
+        "name": "Python",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 5,
+        "name": "Svelte",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 6,
+        "name": "TailwindCSS",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 7,
+        "name": "Bootstrap",
+        "url": "https://instagram.com/official_abdultech"
+    },
+    {
+        "id": 8,
+        "name": "MUI",
+        "url": "https://instagram.com/official_abdultech"
+    }
+]

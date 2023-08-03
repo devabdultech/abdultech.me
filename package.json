@@ -38,6 +38,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/inter": "^5.0.6",
+		"@fontsource-variable/space-grotesk": "^5.0.6",
 		"lucide-svelte": "^0.263.0",
 		"use-lanyard": "^1.4.4"
 	}
