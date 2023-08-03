@@ -1,9 +1,10 @@
 <script>
-	import SocialCard from './SocialCard.svelte';
+	import SocialCard from './ui/SocialCard.svelte';
 	import { goto } from '$app/navigation';
+	import Button from './ui/Button.svelte';
 </script>
 
-<section class="w-full lg:w-[50%] flex flex-col">
+<section class="w-full lg:sticky lg:top-0 lg:pr-5">
 	<div class="flex flex-col gap-3">
 		<a href="/" on:click={() => goto('/')}>
 			<h1
@@ -17,5 +18,11 @@
 		</h3>
 
 		<SocialCard />
+
+		<Button />
+
+		<div
+			class="w-full h-[1px] mt-4 bg-gradient-to-r from-[#3ECF8E] from-0% to-[#0C131100] to-100% rounded-full"
+		/>
 	</div>
 </section>
