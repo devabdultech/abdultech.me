@@ -4,6 +4,7 @@
 	import TechStack from './sections/TechStack.svelte';
 	import Project from './sections/Project.svelte';
 	import Experience from './sections/Experience.svelte';
+	import Thoughts from './sections/Thoughts.svelte';
 	import { ArrowUpIcon } from 'lucide-svelte';
 
 	let showArrow = false;
@@ -25,6 +26,7 @@
 	<TechStack />
 	<Project />
 	<Experience />
+	<Thoughts />
 
 	{#if showArrow}
 		<button

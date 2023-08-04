@@ -19,17 +19,24 @@
 		<DreamCompanies
 			name="Apple"
 			title="Software developer"
-			from="2021"
+			from="2023"
 			to="present"
 			color="white"
 		/>
-		<DreamCompanies name="NASA" title="Software developer" from="2021" to="present" color="" />
+		<DreamCompanies name="NASA" title="Software developer" from="2023" to="present" color="white" />
 		<DreamCompanies
 			name="Samsung"
-			title="Software developer"
-			from="2021"
+			title="Senior OneUI engineer"
+			from="2023"
 			to="present"
-			color="blue"
+			color="white"
+		/>
+		<DreamCompanies
+			name="SpaceX"
+			title="Software developer"
+			from="2023"
+			to="present"
+			color="white"
 		/>
 	</div>
 
