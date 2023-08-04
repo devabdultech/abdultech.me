@@ -12,8 +12,8 @@
 		Hey there, I'm Abdulhameed! 👋
 	</h1>
 
-	<div class="text-lg font-[300] leading-relaxed text-textPrimary flex flex-col gap-4 font-space">
-		<p class="relative">
+	<div class="text-lg font-[300] leading-relaxed text-textPrimary flex flex-col gap-y-3 font-space">
+		<p>
 			I'm a passionate self-taught developer and a
 			<a
 				href="https://en.wikipedia.org/wiki/Computer_science"
@@ -37,7 +37,7 @@
 			> to expand my knowledge and skills.
 		</p>
 
-		<p class="">
+		<p>
 			Being a <a
 				href="https://en.wikipedia.org/wiki/Software_engineer"
 				target="_blank"
@@ -48,13 +48,21 @@
 			for <span class="text-textAccent">greatness</span> in everything I create.
 		</p>
 
-		<p class="">
+		<p>
 			When the night comes, you'll often find me enthusiastically learning how to write the best
 			software possible and optimizing it to run even better. The thrill of making <a
 				href="https://en.wikipedia.org/wiki/Computer_software"
 				target="_blank"
 				class="text-textAccent">software</a
 			> more efficient and effective keeps me going.
+		</p>
+
+		<p>
+			Still exploring the world of <a
+				href="https://en.wikipedia.org/wiki/Open_source"
+				target="_blank"
+				class="text-textAccent">open source,</a
+			> and I'm eager to contribute to cool and helpful projects ✨
 		</p>
 	</div>
 </div>

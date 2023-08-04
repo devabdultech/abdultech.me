@@ -19,7 +19,7 @@
 	}
 </script>
 
-<section class="pt-10 lg:pt-24 lg:w-1/2 lg:py-24 font-space scrollbar-hide">
+<section class="pt-10 lg:pt-24 lg:w-1/2 lg:py-24 font-space overflow-y-scroll scrollbar-hide">
 	<About />
 	<TechStack />
 	<Project />
