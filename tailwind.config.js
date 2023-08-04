@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				grainy: 'url(grainy.png)'
+				grainy: 'url(./custom/grainy.svg)'
 			},
 			colors: {
 				background: '#030706',
@@ -14,7 +14,7 @@ export default {
 				buttonGradient: 'linear-gradient(135deg, #122D22 50%, #265842 50%, #122D22 40%)'
 			},
 			cursor: {
-				laptop: 'url(Laptop.cur), pointer'
+				laptop: 'url(./custom/Laptop.cur), pointer'
 			}
 		}
 	},

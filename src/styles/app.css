@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body {
-	@apply bg-grainy  h-full w-full  from-[#161d1a] from-10% to-background to-90%;
+	@apply h-full w-full bg-background bg-grainy from-[#161d1a] from-10% to-background to-90%;
 	width: 100%;
 	height: 100%;
 }
