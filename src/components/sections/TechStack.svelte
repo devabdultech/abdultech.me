@@ -8,10 +8,13 @@
 </script>
 
 <div id="stack" class="mb-16 scroll-mt-16 text-textPrimary lg:min-h-screen lg:scroll-mt-24">
-	<h1 class="font-souvenir font-inter mb-4 text-3xl font-bold tracking-wide lg:text-3xl">Tech stack</h1>
+	<h1 class="font-souvenir font-inter mb-4 text-3xl font-bold tracking-wide lg:text-3xl">
+		Tech stack
+	</h1>
 	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
-		In the realm of code, my primary stack encompasses Javascript and TypeScript, harmoniously weaving their magic in web development. From Node to
-		React, Next.js to Expresss, and exploring the promising realms of Deno and Bun.
+		In the realm of code, my primary stack encompasses Javascript and TypeScript, harmoniously
+		weaving their magic in web development. From Node to React, Next.js to Expresss, and exploring
+		the promising realms of Deno and Bun.
 	</p>
 
 	<div class="mt-5 flex flex-col gap-6">
@@ -45,7 +48,8 @@
 		<div class="flex flex-col gap-3 rounded-lg border p-5">
 			<span>
 				<ArrowRightIcon class="inline-block h-5 w-5" />
-				Other things I am currently exploring, planning to delve into further, or have on my radar for future learning:
+				Other things I am currently exploring, planning to delve into further, or have on my radar for
+				future learning:
 			</span>
 
 			<div class="grid grid-cols-2 gap-x-6 gap-y-4 md:grid-cols-3 lg:grid-cols-4">
