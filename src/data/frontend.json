@@ -1,34 +1,34 @@
 [
-    {
-        "id": 1,
-        "name": "Javascript"
-    },
-    {
-        "id": 2,
-        "name": "Typescript"
-    },
-    {
-        "id": 3,
-        "name": "Python"
-    },
-    {
-        "id": 4,
-        "name": "React"
-    },
-    {
-        "id": 5,
-        "name": "Svelte"
-    },
-    {
-        "id": 6,
-        "name": "TailwindCSS"
-    },
-    {
-        "id": 7,
-        "name": "Bootstrap"
-    },
-    {
-        "id": 8,
-        "name": "MUI"
-    }
+	{
+		"id": 1,
+		"name": "Javascript"
+	},
+	{
+		"id": 2,
+		"name": "Typescript"
+	},
+	{
+		"id": 3,
+		"name": "Python"
+	},
+	{
+		"id": 4,
+		"name": "React"
+	},
+	{
+		"id": 5,
+		"name": "Svelte"
+	},
+	{
+		"id": 6,
+		"name": "TailwindCSS"
+	},
+	{
+		"id": 7,
+		"name": "Bootstrap"
+	},
+	{
+		"id": 8,
+		"name": "MUI"
+	}
 ]

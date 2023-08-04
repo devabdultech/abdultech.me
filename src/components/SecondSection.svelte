@@ -19,7 +19,7 @@
 	}
 </script>
 
-<section class="pt-10 lg:pt-24 lg:w-1/2 lg:py-24 font-space overflow-y-scroll scrollbar-hide">
+<section class="font-space overflow-y-scroll pt-10 scrollbar-hide lg:w-1/2 lg:py-24 lg:pt-24">
 	<About />
 	<TechStack />
 	<Project />
@@ -27,7 +27,7 @@
 	{#if showArrow}
 		<button
 			title="Scroll to top"
-			class="fixed bottom-0 right-0 mb-4 mr-4 p-2 rounded-full bg-white shadow-lg hover:scale-110 transition duration-300"
+			class="fixed bottom-0 right-0 mb-4 mr-4 rounded-full bg-white p-2 shadow-lg transition duration-300 hover:scale-110"
 			on:click={scrollToTop}
 		>
 			<ArrowUpIcon size={18} />

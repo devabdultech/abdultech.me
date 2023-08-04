@@ -1,14 +1,14 @@
 [
-    {
-        "id": 1,
-        "name": "Git"
-    },
-    {
-        "id": 2,
-        "name": "GitHub" 
-    },
-    {
-        "id": 3,
-        "name": "Vite"
-    }
+	{
+		"id": 1,
+		"name": "Git"
+	},
+	{
+		"id": 2,
+		"name": "GitHub"
+	},
+	{
+		"id": 3,
+		"name": "Vite"
+	}
 ]

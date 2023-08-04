@@ -1,34 +1,34 @@
 [
-    {
-        "id": 1,
-        "name": "Node.js"
-    },
-    {
-        "id": 2,
-        "name": "Express"
-    },
-    {
-        "id": 3,
-        "name": "MongoDB"
-    },
-    {
-        "id": 4,
-        "name": "PostgreSQL"
-    },
-    {
-        "id": 5,
-        "name": "MySQL"
-    },
-    {
-        "id": 6,
-        "name": "Redis"
-    },
-    {
-        "id": 7,
-        "name": "Firebase"
-    },
-    {
-        "id": 8,
-        "name": "Supabase"
-    }
+	{
+		"id": 1,
+		"name": "Node.js"
+	},
+	{
+		"id": 2,
+		"name": "Express"
+	},
+	{
+		"id": 3,
+		"name": "MongoDB"
+	},
+	{
+		"id": 4,
+		"name": "PostgreSQL"
+	},
+	{
+		"id": 5,
+		"name": "MySQL"
+	},
+	{
+		"id": 6,
+		"name": "Redis"
+	},
+	{
+		"id": 7,
+		"name": "Firebase"
+	},
+	{
+		"id": 8,
+		"name": "Supabase"
+	}
 ]

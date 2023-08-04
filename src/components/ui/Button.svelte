@@ -1,9 +1,7 @@
-<button
-	class="flex items-center gap-3 mt-4 bg-gradient-to-r from-[#122D22] via-[#265842] to-[#122D22] p-2 w-[250px] lg:px-4 rounded-full"
->
-	<div class="w-5 h-5 rounded-full bg-[#3ECF8E26] flex justify-center items-center">
-		<div class="w-3 h-3 m-auto rounded-full bg-[rgb(62,207,142)] animate-ping" />
+<button class="mt-4 flex w-[250px] items-center gap-3 rounded-full bg-gradient-to-r from-[#122D22] via-[#265842] to-[#122D22] p-2 lg:px-4">
+	<div class="flex h-5 w-5 items-center justify-center rounded-full bg-[#3ECF8E26]">
+		<div class="m-auto h-3 w-3 animate-ping rounded-full bg-[rgb(62,207,142)]" />
 	</div>
 
-	<span class="text-[#3ECF8E] animate-pulse">Available for projects</span>
+	<span class="animate-pulse text-[#3ECF8E]">Available for projects</span>
 </button>
