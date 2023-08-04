@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import About from './sections/About.svelte';
 	import TechStack from './sections/TechStack.svelte';
 	import Project from './sections/Project.svelte';
@@ -6,9 +7,11 @@
 
 	let showArrow = false;
 
-	window.addEventListener('scroll', () => {
-		const threshold = 250;
-		showArrow = window.scrollY > threshold;
+	onMount(() => {
+		window.addEventListener('scroll', () => {
+			const threshold = 250;
+			showArrow = window.scrollY > threshold;
+		});
 	});
 
 	function scrollToTop() {
@@ -16,7 +19,7 @@
 	}
 </script>
 
-<section class="pt-10 lg:pt-24 lg:w-1/2 lg:py-24 font-space">
+<section class="pt-10 lg:pt-24 lg:w-1/2 lg:py-24 font-space scrollbar-hide">
 	<About />
 	<TechStack />
 	<Project />

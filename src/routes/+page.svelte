@@ -9,7 +9,7 @@
 	<title>AbdulTech</title>
 </svelte:head>
 
-<main class="relative">
+<main class="relative scrollbar-hide">
 	<div
 		class="mx-auto min-h-screen max-w-screen-3xl px-4 py-8 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
 	>
