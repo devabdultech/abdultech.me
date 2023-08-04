@@ -1,6 +1,6 @@
 <script>
 	import TechStackIcon from '../ui/TechStackIcon.svelte';
-	import { ArrowRightIcon } from 'lucide-svelte';
+	import { ArrowRightIcon, Code2Icon } from 'lucide-svelte';
 	import frontend from '../../data/frontend.json';
 	import backend from '../../data/backend.json';
 	import tooling from '../../data/tooling.json';
@@ -8,8 +8,10 @@
 </script>
 
 <div id="stack" class="mb-16 scroll-mt-16 text-textPrimary lg:min-h-screen lg:scroll-mt-24">
-	<h1 class="font-souvenir font-inter mb-4 text-3xl font-bold tracking-wide lg:text-3xl">
-		Tech stack
+	<h1
+		class="font-inter mb-4 flex items-center gap-2 text-2xl font-bold uppercase tracking-wide lg:text-3xl"
+	>
+		Tech stack <Code2Icon />
 	</h1>
 	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
 		In the realm of code, my primary stack encompasses Javascript and TypeScript, harmoniously

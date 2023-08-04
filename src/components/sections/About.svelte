@@ -8,7 +8,7 @@
 		<h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
 	</div> -->
 
-	<h1 class="font-souvenir font-inter mb-4 text-3xl font-bold tracking-wide lg:text-3xl">
+	<h1 class="font-inter mb-4 text-2xl font-bold tracking-wide lg:text-3xl">
 		Hey there, I'm Abdulhameed! 👋
 	</h1>
 
