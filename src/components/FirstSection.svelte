@@ -3,6 +3,7 @@
 	import SocialCard from './ui/SocialCard.svelte';
 	import Button from './ui/Button.svelte';
 	import Nav from './ui/Nav.svelte';
+	import SpotifyActivity from './ui/SpotifyActivity.svelte';
 </script>
 
 <section
