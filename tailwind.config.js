@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'grainy-overlay': 'url(grainy.svg)'
+				grainy: 'url(grainy.png)'
 			},
 			colors: {
 				background: '#030706',
