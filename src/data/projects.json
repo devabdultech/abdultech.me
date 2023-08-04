@@ -38,7 +38,7 @@
 	{
 		"id": 5,
 		"name": "URL Magic box",
-		"description": "Crafted a captivating URL Magic Box with TypeScript, MongoDB, and Mongoose. Shortens and lengthens urls while tracking clicks.",
+		"description": "Developed with TypeScript, MongoDB, and Mongoose. Shortens and lengthens urls while tracking clicks.",
 		"image_src": "./project/url-magicbox.png",
 		"github_url": "https://github.com/Abdulhameed735/url-magicbox",
 		"website_url": "https://url-magicbox.vercel.app/",
