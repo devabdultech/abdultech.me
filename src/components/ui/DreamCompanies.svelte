@@ -30,8 +30,8 @@
 		</div>
 
 		<div class="flex flex-col">
-			<p class="text-lg font-[400] tracking-wide">{title}</p>
-			<p class="">{name}</p>
+			<p class="text-base font-[400] tracking-wide lg:text-lg">{title}</p>
+			<p class="text-textPrimary/90">{name}</p>
 		</div>
 	</div>
 

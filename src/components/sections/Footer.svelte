@@ -2,7 +2,7 @@
 	let currentYear = new Date().getFullYear();
 </script>
 
-<footer class="font-inter py-8 font-[200] text-white">
+<footer class="font-inter py-8 font-[200] text-textPrimary">
 	<div class="flex flex-col gap-3">
 		<p class="">
 			Designed by <a
