@@ -5,6 +5,7 @@
 	import Project from './sections/Project.svelte';
 	import Experience from './sections/Experience.svelte';
 	import Thoughts from './sections/Thoughts.svelte';
+	import Footer from './sections/Footer.svelte';
 	import { ArrowUpIcon } from 'lucide-svelte';
 
 	let showArrow = false;
@@ -27,6 +28,7 @@
 	<Project />
 	<Experience />
 	<Thoughts />
+	<Footer />
 
 	{#if showArrow}
 		<button
