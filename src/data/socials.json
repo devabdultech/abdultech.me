@@ -18,5 +18,10 @@
 		"id": 4,
 		"name": "LinkedIn",
 		"url": "https://instagram.com/official_abdultech"
+	},
+	{
+		"id": 5,
+		"name": "Gmail",
+		"url": "mailto:devabdultech@gmail.com"
 	}
 ]
