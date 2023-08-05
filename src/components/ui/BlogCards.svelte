@@ -8,7 +8,7 @@
 	<h1 class="text-xl font-semibold uppercase leading-3 tracking-wide">
 		Is javascript future proof
 	</h1>
-	<p class="font-inter text-base font-[300] leading-relaxed tracking-normal">
+	<p class="font-inter truncate text-base font-[300] leading-relaxed tracking-normal">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur, ullam harum amet,
 		dolorum voluptates repellat temporibus earum quam quo sunt, non voluptate unde dolore corporis
 		quod atque aut ducimus!

@@ -12,5 +12,6 @@ export default {
 			}
 		}
 	},
-	plugins: [require('tailwind-scrollbar-hide')]
+	// eslint-disable-next-line @typescript-eslint/no-var-requires
+	plugins: [require('tailwind-scrollbar')({ nocompatible: true })]
 };

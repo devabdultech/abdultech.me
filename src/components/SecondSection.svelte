@@ -22,7 +22,7 @@
 	}
 </script>
 
-<section class="font-space overflow-y-scroll pt-10 scrollbar-hide lg:w-1/2 lg:py-24 lg:pt-24">
+<section class="font-space pt-10 lg:w-1/2 lg:py-24 lg:pt-24">
 	<About />
 	<TechStack />
 	<Project />
