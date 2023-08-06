@@ -18,7 +18,7 @@
 </script>
 
 <main>
-	<div class="max-w-screen-3xl mx-auto min-h-screen px-4 py-16 md:px-12 md:py-20 lg:px-24 lg:py-0">
+	<div class="max-w-screen-3xl mx-auto min-h-screen px-4 py-5 md:px-12 md:py-20 lg:px-24 lg:py-0">
 		<slot />
 	</div>
 
