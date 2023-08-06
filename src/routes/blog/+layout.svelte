@@ -1,4 +1,5 @@
 <script>
+	let currentYear = new Date().getFullYear();
 	import SocialCard from '../../components/ui/SocialCard.svelte';
 </script>
 
@@ -10,4 +11,12 @@
 		</div>
 	</nav>
 	<slot />
+	<footer class="my-10 flex gap-2">
+		<p class="">
+			<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" class="underline"
+				>CC BY-NC-SA 4.0</a
+			>
+		</p>
+		<p class="">&copy; {currentYear} Abdulhameed Mustapha</p>
+	</footer>
 </main>
