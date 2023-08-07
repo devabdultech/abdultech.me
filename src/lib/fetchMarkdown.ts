@@ -1,39 +1,34 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
-
-interface Blog {
+interface Metadata {
 	title: string;
 	day: number;
-	month: string;
-	year: string;
+	month: number;
+	year: number;
 	description: string;
 	readingTime: string;
-	slug: string;
+}
+
+export interface Blog {
+	meta: Metadata;
 	content: string;
 }
 
-export function fetchMarkdownFiles(): Blog[] {
-	const markdownDir = path.join(process.cwd(), 'src/blog');
-	const filenames = fs.readdirSync(markdownDir);
+export async function fetchMarkdownFiles() {
+	const allPostFiles = import.meta.glob('/src/blog/*.md');
+	const iterablePostFiles = Object.entries(allPostFiles);
 
-	const markdownData = filenames
-		.filter((filename) => filename.endsWith('.md'))
-		.map((filename) => {
-			const filePath = path.join(markdownDir, filename);
-			const fileContent = fs.readFileSync(filePath, 'utf-8');
-			const { data, content } = matter(fileContent);
+	const allPosts = await Promise.all(
+		iterablePostFiles.map(async ([path, resolver]) => {
+			const result = await resolver();
+			const { metadata } = result as { metadata: Metadata };
+
+			const postPath = path.split('/').at(-1)?.replace('.md', '');
+
 			return {
-				title: data.title,
-				day: data.day,
-				description: content,
-				readingTime: data.readingTime,
-				content,
-				slug: filename.replace('.md', ''),
-				month: data.month,
-				year: data.year
+				meta: metadata,
+				path: postPath
 			};
-		});
+		})
+	);
 
-	return markdownData;
+	return allPosts;
 }
