@@ -1,10 +1,12 @@
 ---
 title: My First Markdown Blog
-date: 2023-08-05
-tags: [markdown, blogging]
+day: 09
+month: September
+year: 2023
+readingTime: 10 min
+
 ---
 
-# My First Markdown Blog
 
 Hello, world! This is my first Markdown blog post. Markdown is a lightweight markup language that allows you to write formatted text using plain text syntax.
 

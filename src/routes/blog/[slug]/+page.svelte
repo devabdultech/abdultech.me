@@ -1,12 +1,29 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
+	import { mdsvex } from 'mdsvex';
 	import { ChevronsLeftIcon, DotIcon } from 'lucide-svelte';
+	import { fetchMarkdownFiles } from '$lib/fetchMarkdown';
 
-	let title = $page.params.slug.replace(/-/g, ' ');
+	interface Blog {
+		title: string;
+		day: number;
+		month: string;
+		year: string;
+		description: string;
+		readingTime: string;
+		slug: string;
+		content: string;
+	}
+
+	const blogs: Blog[] = fetchMarkdownFiles();
+
+	let slug = $page.params.slug;
+
+	let selectedBlog = blogs.find((blog) => blog.slug === slug);
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>{selectedBlog ? selectedBlog.title : 'Loading...'}</title>
 </svelte:head>
 
 <main class="">
@@ -18,12 +35,20 @@
 		<span class="">cd ..</span>
 	</a>
 
-	<div class="mt-4">
-		<h1 class="font-inter text-2xl font-bold">{title}</h1>
-		<div class="font-inter mt-1 flex items-center gap-2">
-			<span class="text-textPrimary/50">July 19</span>
-			<DotIcon class="h-4 w-4 text-textPrimary/50" />
-			<span class="text-textPrimary/50">10 min</span>
+	{#if selectedBlog}
+		<div class="mt-4">
+			<h1 class="font-inter text-2xl font-bold">{selectedBlog.title}</h1>
+			<div class="font-inter mt-1 flex items-center gap-2">
+				<span class="text-textPrimary/50">{selectedBlog.month} {selectedBlog.day}</span>
+				<DotIcon class="h-4 w-4 text-textPrimary/50" />
+				<span class="text-textPrimary/50">{selectedBlog.readingTime}</span>
+			</div>
 		</div>
-	</div>
+
+		<div class="prose mt-4">
+			{@html selectedBlog.content}
+		</div>
+	{:else}
+		<p>Loading...</p>
+	{/if}
 </main>
