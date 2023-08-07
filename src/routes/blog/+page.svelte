@@ -24,11 +24,13 @@
 
 	<div class="mt-6 flex flex-col gap-6">
 		<div class="flex w-full items-center gap-3">
-			<div class="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-teal-600 p-5">
-				<h1 class="text-xl font-bold">02</h1>
+			<div
+				class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 lg:h-24 lg:w-24 lg:p-5"
+			>
+				<h1 class="tebase-lg font-bold lg:text-xl">02</h1>
 				<p class="text-center text-sm font-medium text-textPrimary">September, 2023</p>
 			</div>
-			<div class="relative w-5/6 border-l border-l-emerald-500 py-3 pl-4">
+			<div class="relative w-5/6 border-l border-l-textAccent py-3 pl-4">
 				<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
 				<a href="/blog/my-first-blog" class="group transition-all">
 					<div class="flex gap-2 text-xl font-semibold transition-transform">
@@ -52,11 +54,13 @@
 		</div>
 
 		<div class="flex w-full items-center gap-3">
-			<div class="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-teal-600 p-5">
-				<h1 class="text-xl font-bold">09</h1>
+			<div
+				class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 lg:h-24 lg:w-24 lg:p-5"
+			>
+				<h1 class="text-base font-bold lg:text-xl">09</h1>
 				<p class="text-center text-sm font-medium text-textPrimary">December, 2023</p>
 			</div>
-			<div class="relative w-5/6 border-l border-l-emerald-500 py-3 pl-4">
+			<div class="relative w-5/6 border-l border-l-textAccent py-3 pl-4">
 				<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
 				<a href="/blog/my-second-blog" class="group transition-all">
 					<div class="flex gap-2 text-xl font-semibold transition-transform">
@@ -80,11 +84,13 @@
 		</div>
 
 		<div class="flex w-full items-center gap-3">
-			<div class="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-teal-600 p-5">
-				<h1 class="text-xl font-bold">01</h1>
+			<div
+				class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 lg:h-24 lg:w-24 lg:p-5"
+			>
+				<h1 class="text-base font-bold lg:text-xl">01</h1>
 				<p class="text-center text-sm font-medium text-textPrimary">January, 2024</p>
 			</div>
-			<div class="relative w-5/6 border-l border-l-emerald-500 py-3 pl-4">
+			<div class="relative w-5/6 border-l border-l-textAccent py-3 pl-4">
 				<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
 				<a href="/blog/my-fifth-blog" class="group transition-all">
 					<div class="flex gap-2 text-xl font-semibold transition-transform">
@@ -108,11 +114,13 @@
 		</div>
 
 		<div class="flex w-full items-center gap-3">
-			<div class="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-teal-600 p-5">
-				<h1 class="text-xl font-bold">14</h1>
+			<div
+				class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 lg:h-24 lg:w-24 lg:p-5"
+			>
+				<h1 class="text-base font-bold lg:text-xl">14</h1>
 				<p class="text-center text-sm font-medium text-textPrimary">January, 2024</p>
 			</div>
-			<div class="relative w-5/6 border-l border-l-emerald-500 py-3 pl-4">
+			<div class="relative w-5/6 border-l border-l-textAccent py-3 pl-4">
 				<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
 				<a href="/blog/my-fourth-blog" class="group transition-all">
 					<div class="flex gap-2 text-xl font-semibold transition-transform">
@@ -136,11 +144,13 @@
 		</div>
 
 		<div class="flex w-full items-center gap-3">
-			<div class="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-teal-600 p-5">
-				<h1 class="text-xl font-bold">03</h1>
+			<div
+				class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 lg:h-24 lg:w-24 lg:p-5"
+			>
+				<h1 class="text-base font-bold lg:text-xl">03</h1>
 				<p class="text-center text-sm font-medium text-textPrimary">March, 2024</p>
 			</div>
-			<div class="relative w-5/6 border-l border-l-emerald-500 py-3 pl-4">
+			<div class="relative w-5/6 border-l border-l-textAccent py-3 pl-4">
 				<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
 				<a href="/blog/my-third-blog" class="group transition-all">
 					<div class="flex gap-2 text-xl font-semibold transition-transform">
