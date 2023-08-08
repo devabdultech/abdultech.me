@@ -1,19 +1,9 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import { ChevronsLeftIcon, DotIcon } from 'lucide-svelte';
-	import { onMount } from 'svelte';
-	import type { Blog } from '$lib/fetchMarkdown';
-
-	export let data;
-	let selectedBlog: Blog;
-
-	onMount(() => {
-		selectedBlog = data.posts.find((blog: Blog) => blog.path === $page.params.slug);
-	});
 </script>
 
 <svelte:head>
-	<title>{selectedBlog.meta.title}</title>
+	<title>Blog</title>
 </svelte:head>
 
 <main class="">
@@ -25,20 +15,12 @@
 		<span class="">cd ..</span>
 	</a>
 
-	{#if selectedBlog}
-		<div class="mt-4">
-			<h1 class="font-inter text-2xl font-bold">{selectedBlog.meta.title}</h1>
-			<div class="font-inter mt-1 flex items-center gap-2">
-				<span class="text-textPrimary/50">{selectedBlog.meta.month} {selectedBlog.meta.day}</span>
-				<DotIcon class="h-4 w-4 text-textPrimary/50" />
-				<span class="text-textPrimary/50">{selectedBlog.meta.readingTime}</span>
-			</div>
+	<div class="mt-4">
+		<h1 class="font-inter text-2xl font-bold">Lorem ipsum dolor sit.</h1>
+		<div class="font-inter mt-1 flex items-center gap-2">
+			<span class="text-textPrimary/50">January 18, 2024 </span>
+			<DotIcon class="h-4 w-4 text-textPrimary/50" />
+			<span class="text-textPrimary/50">10 min</span>
 		</div>
-
-		<div class="prose mt-4">
-			{@html selectedBlog.content}
-		</div>
-	{:else}
-		<p>Loading...</p>
-	{/if}
+	</div>
 </main>

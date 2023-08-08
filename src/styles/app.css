@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body {
-	@apply grainy-overlay h-full w-full bg-background from-[#161d1a] from-10% to-background to-90%;
+	@apply h-full w-full bg-background bg-grainy from-[#161d1a] from-10% to-background to-90%;
 	width: 100%;
 	height: 100%;
 }
@@ -18,15 +18,5 @@ body {
 
 	.font-inter {
 		font-family: 'Inter Variable', sans-serif;
-	}
-
-	.grainy-overlay {
-		background-image: url('custom/grainy.svg');
-		background-repeat: repeat;
-		background-size: 100%;
-	}
-
-	.laptop-cursor {
-		cursor: url('custom/Laptop.cur'), pointer;
 	}
 }

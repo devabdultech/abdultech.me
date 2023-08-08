@@ -18,7 +18,7 @@
 			<a
 				href="https://en.wikipedia.org/wiki/Computer_science"
 				target="_blank"
-				class="laptop-cursor text-textAccent transition duration-200 hover:underline"
+				class="cursor-laptop text-textAccent transition duration-200 hover:underline"
 			>
 				Computer Science
 			</a>
