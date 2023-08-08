@@ -4,9 +4,7 @@ day: 09
 month: September
 year: 2023
 readingTime: 10 min
-
 ---
-
 
 Hello, world! This is my first Markdown blog post. Markdown is a lightweight markup language that allows you to write formatted text using plain text syntax.
 

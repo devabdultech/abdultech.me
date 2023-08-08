@@ -18,14 +18,16 @@ export async function fetchMarkdownFiles() {
 
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
-			const result = await resolver();
+			const result = (await resolver()) as { metadata: Metadata; default: string };
 			const { metadata } = result as { metadata: Metadata };
 
 			const postPath = path.split('/').at(-1)?.replace('.md', '');
+			const content = result.default;
 
 			return {
 				meta: metadata,
-				path: postPath
+				path: postPath,
+				content
 			};
 		})
 	);

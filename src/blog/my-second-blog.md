@@ -4,7 +4,6 @@ day: 31
 month: August
 year: 2023
 readingTime: 16 min
-
 ---
 
 # My First Markdown Blog
