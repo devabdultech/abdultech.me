@@ -43,6 +43,7 @@
 		"@fontsource-variable/inter": "^5.0.6",
 		"@fontsource-variable/space-grotesk": "^5.0.6",
 		"gray-matter": "^4.0.3",
-		"lucide-svelte": "^0.263.0"
+		"lucide-svelte": "^0.263.0",
+		"shiki": "^0.14.3"
 	}
 }

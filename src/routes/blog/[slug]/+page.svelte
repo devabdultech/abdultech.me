@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<div class="prose mt-5">
+	<div class="prose font-inter mt-5 text-base leading-normal text-textPrimary/90 lg:text-lg">
 		<svelte:component this={data.content} />
 	</div>
 </main>
