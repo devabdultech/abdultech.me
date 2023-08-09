@@ -1,6 +1,14 @@
-export async function load({ fetch }) {
-	const response = await fetch('/api/posts');
-	const posts = await response.json();
+import { error } from '@sveltejs/kit';
 
-	return { posts };
+export async function load({ params }) {
+	try {
+		const post = await import(`../../../blog/${params.slug}.md`);
+
+		return {
+			content: post.default,
+			meta: post.metadata
+		};
+	} catch (e) {
+		throw error(404, `Could not find ${params.slug}`);
+	}
 }

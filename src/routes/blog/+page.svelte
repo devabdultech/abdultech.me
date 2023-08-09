@@ -30,28 +30,28 @@
 				<div
 					class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 p-5 lg:h-24 lg:w-24"
 				>
-					<h1 class="text-base font-bold lg:text-xl">{blog.meta.day}</h1>
+					<h1 class="text-base font-bold lg:text-xl">{blog.day}</h1>
 					<p class="text-center text-sm font-medium text-textPrimary">
-						{blog.meta.month}, {blog.meta.year}
+						{blog.month}, {blog.year}
 					</p>
 				</div>
 				<div class="relative w-5/6 border-l border-l-textAccent py-3 pl-4">
 					<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
-					<a href={`/blog/${blog.path}`} class="group transition-all">
+					<a href={`/blog/${blog.slug}`} class="group transition-all">
 						<div class="flex gap-2 text-xl font-semibold transition-transform">
-							<span>{blog.meta.title}</span>
+							<span>{blog.title}</span>
 							<ArrowUpRightIcon
 								size={16}
 								class="transform duration-200 group-hover:translate-x-1 group-hover:translate-y-[-2px]"
 							/>
 							<span class="flex items-center text-xs text-textPrimary/50"
-								><DotIcon /> {blog.meta.readingTime}</span
+								><DotIcon /> {blog.readingTime}</span
 							>
 						</div>
 						<p
 							class="mt-2 max-w-xs truncate text-sm font-medium leading-relaxed text-textPrimary/70 lg:mt-1"
 						>
-							{blog.description}
+							{blog.default}
 						</p>
 						<div class="absolute -left-1.5 bottom-0 aspect-square w-3 rounded-full bg-textAccent" />
 					</a>

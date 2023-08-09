@@ -8,29 +8,28 @@ interface Metadata {
 }
 
 export interface Blog {
+	slug: string;
 	meta: Metadata;
-	content: string;
 }
 
 export async function fetchMarkdownFiles() {
-	const allPostFiles = import.meta.glob('/src/blog/*.md');
-	const iterablePostFiles = Object.entries(allPostFiles);
+	// eslint-disable-next-line prefer-const
+	let blogPosts: Blog[] = [];
 
-	const allPosts = await Promise.all(
-		iterablePostFiles.map(async ([path, resolver]) => {
-			const result = (await resolver()) as { metadata: Metadata; default: string };
-			const { metadata } = result as { metadata: Metadata };
+	const allPostFiles = import.meta.glob('/src/blog/*.md', { eager: true });
+	for (const path in allPostFiles) {
+		const file = await allPostFiles[path];
+		const slug = path.split('/').at(-1)?.replace('.md', '');
 
-			const postPath = path.split('/').at(-1)?.replace('.md', '');
-			const content = result.default;
+		if (file && typeof file === 'object' && 'metadata' in file && slug) {
+			const metadata = file.metadata as Omit<Blog, 'slug'>;
 
-			return {
-				meta: metadata,
-				path: postPath,
-				content
-			};
-		})
-	);
+			const blog = { slug, ...metadata };
+			blogPosts.push(blog);
+		}
+	}
 
-	return allPosts;
+	console.log(blogPosts);
+
+	return blogPosts;
 }

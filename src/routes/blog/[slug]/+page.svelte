@@ -1,9 +1,12 @@
 <script lang="ts">
 	import { ChevronsLeftIcon, DotIcon } from 'lucide-svelte';
+	export let data;
 </script>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>{data.meta.title}</title>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
 <main class="">
@@ -16,11 +19,15 @@
 	</a>
 
 	<div class="mt-4">
-		<h1 class="font-inter text-2xl font-bold">Lorem ipsum dolor sit.</h1>
+		<h1 class="font-inter text-2xl font-bold">{data.meta.title}</h1>
 		<div class="font-inter mt-1 flex items-center gap-2">
-			<span class="text-textPrimary/50">January 18, 2024 </span>
+			<span class="text-textPrimary/50">{data.meta.month} {data.meta.day}, {data.meta.year} </span>
 			<DotIcon class="h-4 w-4 text-textPrimary/50" />
-			<span class="text-textPrimary/50">10 min</span>
+			<span class="text-textPrimary/50">{data.meta.readingTime}</span>
 		</div>
+	</div>
+
+	<div class="prose mt-5">
+		<svelte:component this={data.content} />
 	</div>
 </main>
