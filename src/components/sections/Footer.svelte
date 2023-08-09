@@ -58,7 +58,7 @@
 			</ul>
 		</div>
 
-		<p class="">
+		<p class="text-sm lg:text-base">
 			All content is licensed under the <a
 				href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
 				target="_blank"
@@ -66,6 +66,6 @@
 			>
 			license, from the year 2023 to present.
 		</p>
-		<p class="">&copy; {currentYear} Abdulhameed Mustapha</p>
+		<p class="text-sm lg:text-base">&copy; {currentYear} Abdulhameed Mustapha</p>
 	</div>
 </footer>

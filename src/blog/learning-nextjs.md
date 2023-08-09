@@ -1,12 +1,11 @@
 ---
-title: Learning Next.js - A Comprehensive Guide with Code Examples
+title: Learning Next.js
 day: 9
 month: August
 year: 2023
 description: Dive into the world of Next.js and supercharge your web development skills with practical code examples.
 readingTime: '10 min'
 ---
-
 
 # Learning Next.js - A Comprehensive Guide with Code Examples
 
