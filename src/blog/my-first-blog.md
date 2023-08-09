@@ -3,6 +3,7 @@ title: My First Markdown Blog
 day: 09
 month: September
 year: 2023
+description: Dive into the world of Next.js and supercharge your web development skills with practical code
 readingTime: 10 min
 ---
 

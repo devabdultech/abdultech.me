@@ -52,7 +52,7 @@
 						<p
 							class="mt-2 max-w-xs truncate text-sm font-medium leading-relaxed text-textPrimary/70 lg:mt-1"
 						>
-							{blog.default}
+							{blog.description}
 						</p>
 						<div class="absolute -left-1.5 bottom-0 aspect-square w-3 rounded-full bg-textAccent" />
 					</a>

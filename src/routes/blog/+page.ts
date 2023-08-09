@@ -1,8 +1,17 @@
 import type { PageLoad } from './$types';
 
-export const load = (async ({ fetch }) => {
-	const response = await fetch('/api/posts');
-	const posts = await response.json();
+export const load: PageLoad = async ({ fetch }) => {
+	try {
+		const response = await fetch('/api/posts');
+		const posts = await response.json();
 
-	return { posts };
-}) satisfies PageLoad;
+		return {
+			posts
+		};
+	} catch (error) {
+		console.error('Failed to fetch data:', error);
+		return {
+			error: 'Failed to fetch data'
+		};
+	}
+};

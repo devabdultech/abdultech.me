@@ -13,7 +13,7 @@
 <div
 	class="flex flex-col gap-4 rounded-lg border border-[#0A1512] bg-[#040907] px-3 py-4 lg:px-4 lg:py-6"
 >
-	<h1 class="text-xl font-semibold uppercase leading-3 tracking-wide">
+	<h1 class="text-xl font-semibold uppercase leading-relaxed tracking-wide">
 		{title}
 	</h1>
 	<p class="font-inter truncate text-base font-[300] leading-relaxed tracking-normal">

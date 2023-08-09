@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import type { Metadata } from '$lib/types';
 	import BlogCards from '../ui/BlogCards.svelte';
+	import { ArrowRightIcon } from 'lucide-svelte';
 
 	interface MetadataWithSlug extends Metadata {
 		slug: string;
@@ -37,7 +38,7 @@
 		{#each blogCards.slice(0, 3) as blogCard}
 			<BlogCards
 				title={blogCard.title}
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur, ullam harum amet, amet congt jen"
+				description={blogCard.description}
 				link={blogCard.slug}
 				day={blogCard.day}
 				month={blogCard.month}
@@ -45,5 +46,24 @@
 				readingTime={blogCard.readingTime}
 			/>
 		{/each}
+	</div>
+
+	<div class="mt-4">
+		<a
+			class="group inline-flex items-center font-semibold leading-tight text-slate-200 transition-colors hover:text-textAccent motion-reduce:transition-none"
+			aria-label="Read more"
+			href="/blog"
+		>
+			<span
+				class="border-b border-transparent pb-px transition group-hover:border-textAccent motion-reduce:transition-none"
+			>
+				Read more of my random thoughts :)
+			</span>
+			<span class="whitespace-nowrap">
+				<ArrowRightIcon
+					class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
+				/>
+			</span>
+		</a>
 	</div>
 </div>
