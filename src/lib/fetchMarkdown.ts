@@ -1,16 +1,4 @@
-interface Metadata {
-	title: string;
-	day: number;
-	month: number;
-	year: number;
-	description: string;
-	readingTime: string;
-}
-
-export interface Blog {
-	slug: string;
-	meta: Metadata;
-}
+import type { Blog } from './types';
 
 export async function fetchMarkdownFiles() {
 	// eslint-disable-next-line prefer-const
@@ -28,8 +16,6 @@ export async function fetchMarkdownFiles() {
 			blogPosts.push(blog);
 		}
 	}
-
-	console.log(blogPosts);
 
 	return blogPosts;
 }

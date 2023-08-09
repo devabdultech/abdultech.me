@@ -1,5 +1,24 @@
-<script>
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import type { Metadata } from '$lib/types';
 	import BlogCards from '../ui/BlogCards.svelte';
+
+	interface MetadataWithSlug extends Metadata {
+		slug: string;
+	}
+	let blogCards: MetadataWithSlug[] = [];
+
+	onMount(async () => {
+		try {
+			const response = await fetch('/api/posts');
+			const data = await response.json();
+
+			blogCards = data;
+			console.log(blogCards);
+		} catch (error) {
+			console.error('Failed to fetch data:', error);
+		}
+	});
 </script>
 
 <div
@@ -15,8 +34,16 @@
 	</p>
 
 	<div class="mt-12 flex flex-col gap-y-6">
-		<BlogCards />
-		<BlogCards />
-		<BlogCards />
+		{#each blogCards.slice(0, 3) as blogCard}
+			<BlogCards
+				title={blogCard.title}
+				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur, ullam harum amet, amet congt jen"
+				link={blogCard.slug}
+				day={blogCard.day}
+				month={blogCard.month}
+				year={blogCard.year}
+				readingTime={blogCard.readingTime}
+			/>
+		{/each}
 	</div>
 </div>

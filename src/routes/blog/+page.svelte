@@ -1,6 +1,7 @@
 <script lang="ts">
+	import type { PageData } from './$types';
 	import { ArrowUpRightIcon, DotIcon } from 'lucide-svelte';
-	export let data;
+	export let data: PageData;
 	const { posts } = data;
 </script>
 
@@ -28,10 +29,10 @@
 		{#each posts as blog}
 			<div class="flex w-full items-center gap-3">
 				<div
-					class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 p-5 lg:h-24 lg:w-24"
+					class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 p-5 text-center lg:h-24 lg:w-24"
 				>
-					<h1 class="text-base font-bold lg:text-xl">{blog.day}</h1>
-					<p class="text-center text-sm font-medium text-textPrimary">
+					<h1 class="text-sm font-bold lg:text-xl">{blog.day}</h1>
+					<p class="text-sm font-medium text-textPrimary">
 						{blog.month}, {blog.year}
 					</p>
 				</div>
