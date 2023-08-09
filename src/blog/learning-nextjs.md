@@ -7,6 +7,7 @@ description: Dive into the world of Next.js and supercharge your web development
 readingTime: '10 min'
 ---
 
+
 # Learning Next.js - A Comprehensive Guide with Code Examples
 
 Next.js is a powerful React framework that simplifies the process of building modern web applications. Whether you're a beginner or an experienced developer, this guide will walk you through the fundamentals of Next.js with hands-on code examples.

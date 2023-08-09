@@ -22,7 +22,7 @@ body {
 }
 
 .prose {
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 .prose :is(h2, h3, h4, h5, h6) {
@@ -31,17 +31,17 @@ body {
 }
 
 .prose a {
-	color: #4f46e5;
+	@apply text-textAccent/80;
 	text-decoration: underline;
 }
 
 .prose a:hover {
-	color: #6d63f2;
+	@apply text-textAccent;
 }
 
 .prose p {
 	margin: 1rem 0;
-	line-height: 1.6;
+	line-height: 1.4;
 }
 
 .prose :is(ul, ol) {
