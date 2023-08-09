@@ -39,7 +39,7 @@
 					<div class="absolute -left-1.5 top-0 aspect-square w-3 rounded-full bg-textAccent" />
 					<a href={`/blog/${blog.slug}`} class="group transition-all">
 						<div class="flex gap-2 text-xl font-semibold transition-transform">
-							<span>{blog.title}</span>
+							<span class="text-base lg:text-lg">{blog.title}</span>
 							<ArrowUpRightIcon
 								size={16}
 								class="transform duration-200 group-hover:translate-x-1 group-hover:translate-y-[-2px]"
