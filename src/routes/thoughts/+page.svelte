@@ -1,13 +1,9 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
 	import type { PageData } from './$types';
 	import { ArrowUpRightIcon, DotIcon } from 'lucide-svelte';
 	export let data: PageData;
 	const { posts } = data;
-
-	let url = ``;
-
-	onMount(() => (url = window.location.href));
 </script>
 
 <svelte:head>
@@ -20,8 +16,8 @@
 		property="og:description"
 		content="Step into my world of thoughts and experiences, where ideas mingle with visions and passions run wild in a mix of curiosity and discovery."
 	/>
-	<meta property="og:url" content={url} />
-	<link rel="canonical" href={url} />
+	<meta property="og:url" content={$page.url.href} />
+	<link rel="canonical" href={$page.url.href} />
 </svelte:head>
 
 <div class="flex max-w-5xl flex-col gap-4">

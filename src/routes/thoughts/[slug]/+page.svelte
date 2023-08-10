@@ -1,11 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
 	import { ChevronsLeftIcon, DotIcon } from 'lucide-svelte';
 	export let data;
-
-	let url = ``;
-
-	onMount(() => (url = window.location.href));
 </script>
 
 <svelte:head>
@@ -15,8 +11,8 @@
 	<meta property="og:site_name" content="AbdulTech" />
 	<meta name="description" content={data.meta.description} />
 	<meta property="og:description" content={data.meta.description} />
-	<meta property="og:url" content={url} />
-	<link rel="canonical" href={url} />
+	<meta property="og:url" content={$page.url.href} />
+	<link rel="canonical" href={$page.url.href} />
 </svelte:head>
 
 <main class="">
