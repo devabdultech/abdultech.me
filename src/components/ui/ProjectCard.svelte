@@ -21,10 +21,22 @@
 		<div class="flex-grow rounded-md">
 			{#if website_url}
 				<a href={website_url}>
-					<img src={image_src} alt={'Screenshot of ' + name} class="h-auto w-full rounded-lg" />
+					<img
+						width="640"
+						height="360"
+						src={image_src}
+						alt={'Screenshot of ' + name}
+						class="h-auto w-full rounded-lg"
+					/>
 				</a>
 			{:else}
-				<img src={image_src} alt={'Screenshot of ' + name} class="h-auto w-full rounded-lg" />
+				<img
+					width="640"
+					height="360"
+					src={image_src}
+					alt={'Screenshot of ' + name}
+					class="h-auto w-full rounded-lg"
+				/>
 			{/if}
 		</div>
 
