@@ -5,7 +5,25 @@
 	import backend from '../../data/backend.json';
 	import tooling from '../../data/tooling.json';
 	import tolearn from '../../data/tolearn.json';
+
+	const allIcons = [
+		...frontend.map((f) => f.name),
+		...backend.map((b) => b.name),
+		...tooling.map((t) => t.name),
+		...tolearn.map((tl) => tl.name)
+	];
 </script>
+
+<svelte:head>
+	{#each allIcons as iconName}
+		<link
+			rel="preload"
+			href={`https://cdn.simpleicons.org/${iconName}`}
+			as="image"
+			type="image/svg+xml"
+		/>
+	{/each}
+</svelte:head>
 
 <div id="stack" class="mb-16 scroll-mt-16 text-textPrimary lg:min-h-screen lg:scroll-mt-24">
 	<h1
