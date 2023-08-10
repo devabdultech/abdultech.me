@@ -1,12 +1,22 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { ChevronsLeftIcon, DotIcon } from 'lucide-svelte';
 	export let data;
+
+	let url = ``;
+
+	onMount(() => (url = window.location.href));
 </script>
 
 <svelte:head>
 	<title>{data.meta.title}</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
+	<meta property="og:site_name" content="AbdulTech" />
+	<meta name="description" content={data.meta.description} />
+	<meta property="og:description" content={data.meta.description} />
+	<meta property="og:url" content={url} />
+	<link rel="canonical" href={url} />
 </svelte:head>
 
 <main class="">

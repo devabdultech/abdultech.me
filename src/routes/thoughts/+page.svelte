@@ -1,12 +1,27 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import { ArrowUpRightIcon, DotIcon } from 'lucide-svelte';
 	export let data: PageData;
 	const { posts } = data;
+
+	let url = ``;
+
+	onMount(() => (url = window.location.href));
 </script>
 
 <svelte:head>
 	<title>Spicy takes 🔥 | Writing 📝 - AbdulTech</title>
+	<meta
+		name="description"
+		content="Step into my world of thoughts and experiences, where ideas mingle with visions and passions run wild in a mix of curiosity and discovery."
+	/>
+	<meta
+		property="og:description"
+		content="Step into my world of thoughts and experiences, where ideas mingle with visions and passions run wild in a mix of curiosity and discovery."
+	/>
+	<meta property="og:url" content={url} />
+	<link rel="canonical" href={url} />
 </svelte:head>
 
 <div class="flex max-w-5xl flex-col gap-4">

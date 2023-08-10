@@ -4,6 +4,8 @@
 
 <svelte:head>
 	<title>{$page.status}: {$page.error?.message}</title>
+	<meta name="description" content="Oops page not found. Nice to see you here thou :)" />
+	<meta property="og:description" content="Oops page not found. Nice to see you here thou :)" />
 </svelte:head>
 
 <div class="mx-auto mt-8 flex max-h-screen flex-col items-center justify-center text-textPrimary">

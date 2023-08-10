@@ -20,9 +20,9 @@
 				AbdulTech
 			</h1>
 		</a>
-		<h3 class="mt-3 text-lg font-medium uppercase tracking-[0.4rem] text-slate-400 sm:text-xl">
+		<h1 class="mt-3 text-lg font-medium uppercase tracking-[0.4rem] text-slate-400 sm:text-xl">
 			Software Developer
-		</h3>
+		</h1>
 
 		<SocialCard />
 
