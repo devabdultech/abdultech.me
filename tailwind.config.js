@@ -14,7 +14,8 @@ export default {
 				grainy: "url('/custom/grainy.svg')"
 			},
 			cursor: {
-				laptop: "url('/custom/Laptop.cur'), pointer"
+				laptop: "url('/custom/Laptop.cur'), pointer",
+				pepper: "url('/custom/pepper.cur'), pointer"
 			}
 		}
 	},

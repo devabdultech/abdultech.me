@@ -27,11 +27,13 @@
 	class="font-space mb-16 scroll-mt-16 text-textPrimary lg:min-h-screen lg:scroll-mt-24"
 >
 	<h1 class="font-inter mb-4 flex items-center gap-2 text-2xl font-bold uppercase lg:text-3xl">
-		Thoughts | Blog
+		Thoughts || Writing
 	</h1>
 	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
-		Step into the realm of my musings, where thoughts intertwine with experiences, ideas dance with
-		visions, and interests converge in a symphony of exploration.
+		Now, about that part of my portfolio where I spill my thoughts and bring the heat with my
+		<span class="cursor-pepper font-medium">spiciest, hottest</span> takes haha – yeah, i wouldn't call
+		it a blog. No pressure to be all professional and buttoned-up here. It's more like a cozy nook where
+		I let loose and share my rants, raves, and everything I've learned from what I love.
 	</p>
 
 	<div class="mt-12 flex flex-col gap-y-6">
@@ -52,7 +54,7 @@
 		<a
 			class="group inline-flex items-center font-semibold leading-tight text-slate-200 transition-colors hover:text-textAccent motion-reduce:transition-none"
 			aria-label="Read more"
-			href="/blog"
+			href="/thoughts"
 		>
 			<span
 				class="border-b border-transparent pb-px transition group-hover:border-textAccent motion-reduce:transition-none"

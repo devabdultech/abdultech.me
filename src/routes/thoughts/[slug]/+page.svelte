@@ -11,7 +11,7 @@
 
 <main class="">
 	<a
-		href="/blog"
+		href="/thoughts"
 		class="group mb-3 flex cursor-pointer items-center gap-2 p-0 text-textAccent transition-all"
 	>
 		<ChevronsLeftIcon class="h-6 w-6 transform duration-200 group-hover:-translate-x-1" />

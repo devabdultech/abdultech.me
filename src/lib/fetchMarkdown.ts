@@ -4,7 +4,7 @@ export async function fetchMarkdownFiles() {
 	// eslint-disable-next-line prefer-const
 	let blogPosts: Blog[] = [];
 
-	const allPostFiles = import.meta.glob('/src/blog/*.md', { eager: true });
+	const allPostFiles = import.meta.glob('/src/thoughts/*.md', { eager: true });
 	for (const path in allPostFiles) {
 		const file = await allPostFiles[path];
 		const slug = path.split('/').at(-1)?.replace('.md', '');
