@@ -3,7 +3,7 @@
 	width="300"
 	height="60"
 	viewBox="0 0 634 97"
-	fill="transparent"
+	fill="none"
 	xmlns="http://www.w3.org/2000/svg"
 >
 	<mask
@@ -13,7 +13,7 @@
 		y="0"
 		width="634"
 		height="97"
-		fill="black"
+		fill="white"
 	>
 		<rect fill="white" width="634" height="97" />
 		<path

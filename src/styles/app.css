@@ -82,56 +82,56 @@ body {
 }
 
 #abdultech path:nth-child(1) {
-	stroke-dasharray: 516;
-	stroke-dashoffset: 516;
+	stroke-dasharray: 515.9183959960938;
+	stroke-dashoffset: 515.9183959960938;
 	animation: line-anim 2s ease forwards;
 }
 
 #abdultech path:nth-child(2) {
-	stroke-dasharray: 466;
-	stroke-dashoffset: 466;
+	stroke-dasharray: 466.450439453125;
+	stroke-dashoffset: 466.450439453125;
 	animation: line-anim 2s ease forwards 0.3s;
 }
 
 #abdultech path:nth-child(3) {
-	stroke-dasharray: 466;
-	stroke-dashoffset: 466;
+	stroke-dasharray: 466.48565673828125;
+	stroke-dashoffset: 466.48565673828125;
 	animation: line-anim 2s ease forwards 0.6s;
 }
 
 #abdultech path:nth-child(4) {
-	stroke-dasharray: 367;
-	stroke-dashoffset: 367;
+	stroke-dasharray: 363.7239685058594;
+	stroke-dashoffset: 363.7239685058594;
 	animation: line-anim 2s ease forwards 0.9s;
 }
 
 #abdultech path:nth-child(5) {
-	stroke-dasharray: 208;
-	stroke-dashoffset: 208;
+	stroke-dasharray: 207.63778686523438;
+	stroke-dashoffset: 207.63778686523438;
 	animation: line-anim 2s ease forwards 1.2s;
 }
 
 #abdultech path:nth-child(6) {
-	stroke-dasharray: 326;
-	stroke-dashoffset: 326;
+	stroke-dasharray: 325.8177795410156;
+	stroke-dashoffset: 325.8177795410156;
 	animation: line-anim 2s ease forwards 1.5s;
 }
 
 #abdultech path:nth-child(7) {
-	stroke-dasharray: 448;
-	stroke-dashoffset: 448;
+	stroke-dasharray: 448.2218933105469;
+	stroke-dashoffset: 448.2218933105469;
 	animation: line-anim 2s ease forwards 1.8s;
 }
 
 #abdultech path:nth-child(8) {
-	stroke-dasharray: 327;
-	stroke-dashoffset: 327;
+	stroke-dasharray: 326.876953125;
+	stroke-dashoffset: 326.876953125;
 	animation: line-anim 2s ease forwards 2.1s;
 }
 
 #abdultech path:nth-child(9) {
-	stroke-dasharray: 413;
-	stroke-dashoffset: 413;
+	stroke-dasharray: 412.9675598144531;
+	stroke-dashoffset: 412.9675598144531;
 	animation: line-anim 2s ease forwards 2.4s;
 }
 
