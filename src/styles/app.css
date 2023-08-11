@@ -135,6 +135,12 @@ body {
 	animation: line-anim 2s ease forwards 2.4s;
 }
 
+#abdultech-logo path:nth-child(1) {
+	stroke-dasharray: 1385.593017578125;
+	stroke-dashoffset: 1385.593017578125;
+	animation: line-anim 2s ease forwards;
+}
+
 @keyframes line-anim {
 	to {
 		stroke-dashoffset: 0;

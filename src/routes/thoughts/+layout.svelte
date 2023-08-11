@@ -1,11 +1,14 @@
 <script>
 	let currentYear = new Date().getFullYear();
+	import AbdulTechLogo from '../../components/ui/AbdulTechLogo.svelte';
 	import SocialCard from '../../components/ui/SocialCard.svelte';
 </script>
 
 <main class="font-space flex h-full w-full flex-col gap-4 text-textPrimary">
 	<nav class="flex w-full items-center justify-between py-0 lg:py-6">
-		<a href="/">Logo</a>
+		<a aria-label="AbdulTech Logo" href="/">
+			<AbdulTechLogo />
+		</a>
 		<div class="flex items-center justify-center gap-3">
 			<SocialCard />
 		</div>
