@@ -2,11 +2,6 @@
 	id="about"
 	class="font-space mb-16 scroll-mt-16 text-textPrimary lg:min-h-screen lg:scroll-mt-24"
 >
-	<!-- <div
-		class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
-	>
-		<h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
-	</div> -->
 
 	<h1 class="font-inter mb-4 text-2xl font-bold tracking-wide lg:text-3xl">
 		Hey there, I'm Abdulhameed! 👋
