@@ -4,6 +4,7 @@
 	import Button from './ui/Button.svelte';
 	import Nav from './ui/Nav.svelte';
 	import SpotifyActivity from './ui/SpotifyActivity.svelte';
+	import Abdultech from './ui/Abdultech.svelte';
 </script>
 
 <section
@@ -11,11 +12,7 @@
 >
 	<div class="flex flex-col gap-3">
 		<a href="/" on:click={() => goto('/')}>
-			<h1
-				class="font-inter text-4xl font-bold tracking-tight text-textPrimary transition-colors duration-300 hover:cursor-pointer sm:text-5xl"
-			>
-				AbdulTech
-			</h1>
+			<Abdultech />
 		</a>
 		<h1 class="mt-3 text-lg font-medium uppercase tracking-[0.4rem] text-slate-400 sm:text-xl">
 			Software Developer
