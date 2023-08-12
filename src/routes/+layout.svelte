@@ -15,7 +15,7 @@
 
 		setTimeout(() => {
 			firstVisit = false;
-		}, 500);
+		}, 1500);
 	});
 
 	function scrollToTop() {
