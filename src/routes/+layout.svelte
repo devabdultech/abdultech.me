@@ -2,14 +2,20 @@
 	import '../styles/app.css';
 	import { onMount } from 'svelte';
 	import { ArrowUpIcon } from 'lucide-svelte';
+	import Loading from '../components/sections/Loading.svelte';
 
 	let showArrow = false;
+	let firstVisit = true;
 
 	onMount(() => {
 		window.addEventListener('scroll', () => {
 			const threshold = 250;
 			showArrow = window.scrollY > threshold;
 		});
+
+		setTimeout(() => {
+			firstVisit = false;
+		}, 500);
 	});
 
 	function scrollToTop() {
@@ -19,7 +25,11 @@
 
 <main>
 	<div class="mx-auto min-h-screen px-4 py-5 md:px-12 md:py-20 lg:px-24 lg:py-0">
-		<slot />
+		{#if firstVisit}
+			<Loading />
+		{:else}
+			<slot />
+		{/if}
 	</div>
 
 	{#if showArrow}
