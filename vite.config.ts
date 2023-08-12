@@ -6,5 +6,5 @@ export default defineConfig({
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
-	assetsInclude: ['static/**/*.{svg,cur}']
+	assetsInclude: ['static/**/*.{svg,cur,pdf}']
 });
