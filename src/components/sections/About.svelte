@@ -2,7 +2,6 @@
 	id="about"
 	class="font-space mb-16 scroll-mt-16 text-textPrimary lg:min-h-screen lg:scroll-mt-24"
 >
-
 	<h1 class="font-inter mb-4 text-2xl font-bold tracking-wide lg:text-3xl">
 		Hey there, I'm Abdulhameed! 👋
 	</h1>
