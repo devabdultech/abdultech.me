@@ -5,5 +5,5 @@
 		<div class="m-auto h-3 w-3 animate-ping rounded-full bg-[rgb(62,207,142)]" />
 	</div>
 
-	<span class="animate-pulse text-[#3ECF8E]">Available for projects</span>
+	<span class="text-[#3ECF8E]">Available for projects</span>
 </button>

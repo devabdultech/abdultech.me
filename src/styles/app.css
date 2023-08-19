@@ -11,6 +11,11 @@ body {
 	height: 100%;
 }
 
+.active {
+	color: aqua;
+	font-weight: 500;
+}
+
 @layer utilities {
 	.font-space {
 		font-family: 'Space Grotesk Variable', sans-serif;

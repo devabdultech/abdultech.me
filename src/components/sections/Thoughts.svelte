@@ -15,7 +15,6 @@
 			const data = await response.json();
 
 			blogCards = data;
-			console.log(blogCards);
 		} catch (error) {
 			console.error('Failed to fetch data:', error);
 		}

@@ -51,7 +51,7 @@
 		<a
 			class="group inline-flex items-center font-semibold leading-tight text-slate-200 transition-colors hover:text-textAccent motion-reduce:transition-none"
 			aria-label="View Full Résumé"
-			href="/document/resume.pdf"
+			href="/resume.pdf"
 			target="_blank"
 		>
 			<span
