@@ -146,6 +146,42 @@ body {
 	animation: line-anim 2s ease forwards;
 }
 
+@keyframes slide-enter {
+	0% {
+		transform: translateY(10px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 100;
+	}
+}
+
+.slide-enter-content > * {
+	--stagger: 0;
+	--delay: 150ms;
+	--start: 0ms;
+	animation: slide-enter 1s both 1;
+	animation-delay: calc(var(--start) + var(--stagger) * var(--delay));
+}
+
+.slide-enter-content > *:nth-child(1) {
+	--stagger: 1;
+}
+.slide-enter-content > *:nth-child(2) {
+	--stagger: 2;
+}
+.slide-enter-content > *:nth-child(3) {
+	--stagger: 3;
+}
+.slide-enter-content > *:nth-child(4) {
+	--stagger: 4;
+}
+.slide-enter-content > *:nth-child(5) {
+	--stagger: 5;
+}
+
 @keyframes line-anim {
 	to {
 		stroke-dashoffset: 0;

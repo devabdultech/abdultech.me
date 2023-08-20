@@ -26,7 +26,7 @@
 						height="360"
 						src={image_src}
 						alt={'Screenshot of ' + name}
-						class="h-auto w-full rounded-lg"
+						class="h-auto w-full rounded-lg transition-transform hover:scale-95"
 					/>
 				</a>
 			{:else}
@@ -35,7 +35,7 @@
 					height="360"
 					src={image_src}
 					alt={'Screenshot of ' + name}
-					class="h-auto w-full rounded-lg"
+					class="h-auto w-full rounded-lg transition-transform hover:scale-95"
 				/>
 			{/if}
 		</div>
