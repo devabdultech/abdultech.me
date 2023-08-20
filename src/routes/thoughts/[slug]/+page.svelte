@@ -33,7 +33,7 @@
 		</div>
 	</div>
 
-	<div class="prose font-inter mt-5 text-base leading-normal text-textPrimary/90 lg:text-lg">
+	<div class="prose slide-enter-content font-inter mt-5 text-base leading-normal text-textPrimary/90 lg:text-lg">
 		<svelte:component this={data.content} />
 	</div>
 </main>
