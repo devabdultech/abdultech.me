@@ -27,6 +27,10 @@ body {
 	line-height: 1.5;
 }
 
+.prose h1 {
+	font-size: large;
+}
+
 .prose :is(h2, h3, h4, h5, h6) {
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
@@ -177,6 +181,51 @@ body {
 }
 .slide-enter-content > *:nth-child(5) {
 	--stagger: 5;
+}
+.slide-enter-content > *:nth-child(6) {
+	--stagger: 6;
+}
+.slide-enter-content > *:nth-child(7) {
+	--stagger: 7;
+}
+.slide-enter-content > *:nth-child(8) {
+	--stagger: 8;
+}
+.slide-enter-content > *:nth-child(9) {
+	--stagger: 9;
+}
+.slide-enter-content > *:nth-child(10) {
+	--stagger: 10;
+}
+.slide-enter-content > *:nth-child(11) {
+	--stagger: 11;
+}
+.slide-enter-content > *:nth-child(12) {
+	--stagger: 12;
+}
+.slide-enter-content > *:nth-child(13) {
+	--stagger: 13;
+}
+.slide-enter-content > *:nth-child(14) {
+	--stagger: 14;
+}
+.slide-enter-content > *:nth-child(15) {
+	--stagger: 15;
+}
+.slide-enter-content > *:nth-child(16) {
+	--stagger: 16;
+}
+.slide-enter-content > *:nth-child(17) {
+	--stagger: 17;
+}
+.slide-enter-content > *:nth-child(18) {
+	--stagger: 18;
+}
+.slide-enter-content > *:nth-child(19) {
+	--stagger: 19;
+}
+.slide-enter-content > *:nth-child(20) {
+	--stagger: 20;
 }
 
 @keyframes line-anim {

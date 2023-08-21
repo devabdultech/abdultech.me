@@ -31,7 +31,7 @@
 	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
 		Now, about that part of my portfolio where I spill my thoughts and bring the heat with my
 		<span class="cursor-pepper font-medium">spiciest, hottest</span> takes haha – yeah, i wouldn't call
-		it a blog. No pressure to be all professional and buttoned-up here. It's more like a cozy nook where
+		it a blog. No pressure to be all professional here. It's more like a cozy nook where
 		I let loose and share my rants, raves, and everything I've learned from what I love.
 	</p>
 
