@@ -4,7 +4,7 @@ day: 21
 month: August
 year: 2023
 description: Welcoming you to what I think or hope will be the beginning of my writing journey
-readingTime: 10 min
+readingTime: 3 min
 ---
 
 # **Welcome**
