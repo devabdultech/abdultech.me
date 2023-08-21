@@ -13,7 +13,7 @@ Hey there! So, I've decided to kick off what I guess might be the start of my li
 
 # **Why am I doing this?**
 
-You know, I've noticed that a bunch of personal websites have this thing called a blog. Some are all fancy and official, taking their sweet time to chat about whatever it is they are interested in writing about. Then there are gems like [antfu.me](https://antfu.me) and [trulyao.dev](https://trulyao.dev) that just capture this awesome vibe. Love how they're not all stiff and pro about it, just talking about what fires them up. And just their general site not just the blog page, I got inspired by their minimal design and nice aesthetics. And that got me thinking – why not me too?
+You know, I've noticed that a bunch of personal websites have this thing called a blog. Some are all fancy and official, taking their sweet time to chat about whatever it is they are interested in writing about. Then there are gems like [antfu.me](https://antfu.me/blog) and [trulyao.dev](https://trulyao.dev/blog) that just capture this awesome vibe. Love how they're not all stiff and pro about it, just talking about what fires them up. And just their general site not just the blog page, I got inspired by their minimal design and nice aesthetics. And that got me thinking – why not me too?
 
 I'm not looking to go all business-like. Nope, I want a corner here where I can just share my thoughts and hot takes about stuff I've tried, the lightbulb moments from fixing things, and just things I'm into. No need for suits and ties, just me being me.
 
