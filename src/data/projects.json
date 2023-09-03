@@ -43,5 +43,14 @@
 		"github_url": "https://github.com/Abdulhameed735/url-magicbox",
 		"website_url": "https://url-magicbox.vercel.app/",
 		"tech_stack": ["NodeJS", "ExpressJS", "TS", "MongoDB"]
+	},
+	{
+		"id": 6,
+		"name": "Spotify Activity",
+		"description": "Dive into a world of data-driven discovery, all while enjoying the tunes that define your moments. Unveil your musical story with Spotify-Activity",
+		"image_src": "./project/spotify-activty.png",
+		"github_url": "https://github.com/Abdulhameed735/spotify-activity",
+		"website_url": "https://abdultech-spotify-activity.vercel.app/",
+		"tech_stack": ["NextJS", "NextAuth", "TS", "Spotify API"]
 	}
 ]
