@@ -1,6 +1,6 @@
 ---
 title: Embarking on a Journey of Innovation
-day: 9
+day: 7
 month: September
 year: 2023
 description: Unearthing Web's Hidden Treasure - My Journey into Innovation
