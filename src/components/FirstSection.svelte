@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
 	import SocialCard from './ui/SocialCard.svelte';
 	import Button from './ui/Button.svelte';
 	import Nav from './ui/Nav.svelte';
 	import SpotifyActivity from './ui/SpotifyActivity.svelte';
 	import Abdultech from './ui/Abdultech.svelte';
+	import Timezone from './ui/Timezone.svelte';
 </script>
 
 <section
@@ -20,6 +21,7 @@
 		<SocialCard />
 
 		<Button />
+		<Timezone />
 
 		<div
 			class="mt-4 h-[1px] w-full rounded-full bg-gradient-to-r from-[#3ECF8E] from-0% to-[#0C131100] to-100%"

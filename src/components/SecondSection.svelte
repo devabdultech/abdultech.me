@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import About from './sections/About.svelte';
 	import TechStack from './sections/TechStack.svelte';
 	import Project from './sections/Project.svelte';
