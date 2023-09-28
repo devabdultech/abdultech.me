@@ -1,5 +1,4 @@
 <script lang="ts">
-	import DreamCompanies from '../ui/DreamCompanies.svelte';
 	import { ArrowRightIcon } from 'lucide-svelte';
 </script>
 
@@ -11,41 +10,8 @@
 		Experience
 	</h1>
 	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
-		No experience yet, but for the fun of it, here are my 🌟 Dream-Infused Professional Ventures 🌟
-		😄:
+		No experience yet, but I'm looking for an internship
 	</p>
-
-	<div class="mt-5 flex flex-col gap-3">
-		<DreamCompanies
-			name="Apple"
-			title="Software developer"
-			from="2023"
-			to="present"
-			color="white"
-		/>
-		<DreamCompanies name="NASA" title="Software developer" from="2023" to="present" color="white" />
-		<DreamCompanies
-			name="Samsung"
-			title="Senior OneUI engineer"
-			from="2023"
-			to="present"
-			color="white"
-		/>
-		<DreamCompanies
-			name="SpaceX"
-			title="Software developer"
-			from="2023"
-			to="present"
-			color="white"
-		/>
-	</div>
-
-	<div class="mt-8 text-center">
-		<p class="animate-pulse text-lg font-semibold">
-			Disclaimer: While my imagination has a stellar resume, my earthly journey is still in
-			progress! 🌌
-		</p>
-	</div>
 
 	<div class="mt-12">
 		<a

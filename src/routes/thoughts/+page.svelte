@@ -41,7 +41,7 @@
 		{#each posts as thoughts}
 			<div class="flex w-full items-center gap-3">
 				<div
-					class="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-teal-600 p-5 text-center lg:h-24 lg:w-24"
+					class="flex h-20 w-20 flex-col items-center justify-center rounded-full p-5 text-center lg:h-24 lg:w-24"
 				>
 					<h1 class="text-sm font-bold lg:text-xl">{thoughts.day}</h1>
 					<p class="text-sm font-medium text-textPrimary">
