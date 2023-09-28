@@ -1,14 +1,24 @@
 <script lang="ts">
-	const currentFragment = window.location.hash;
-	const navLinks = document.querySelectorAll('.nav-link');
+	function updateActiveLink() {
+		const currentFragment = window.location.hash;
+		const navLinks = document.querySelectorAll('.nav-link');
 
-	navLinks.forEach((link) => {
-		if (link.getAttribute('href') === currentFragment) {
-			link.classList.add('active');
-		} else {
-			link.classList.remove('active');
-		}
-	});
+		navLinks.forEach((link) => {
+			if (link.getAttribute('href') === currentFragment) {
+				link.classList.add('active');
+
+				console.log(link);
+			} else {
+				link.classList.remove('active');
+			}
+		});
+	}
+
+	// Initial update
+	updateActiveLink();
+
+	// Update on hash change
+	window.addEventListener('hashchange', updateActiveLink);
 </script>
 
 <nav class="hidden lg:block" aria-label="In-page jump links">

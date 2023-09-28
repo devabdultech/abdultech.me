@@ -8,8 +8,8 @@ body {
 	height: 100%;
 }
 
-.active {
-	color: aqua;
+.active > span {
+	color: #64ffda;
 	font-weight: 500;
 }
 
