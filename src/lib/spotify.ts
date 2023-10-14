@@ -1,4 +1,5 @@
 import { PUBLIC_CLIENT_ID, PUBLIC_CLIENT_SECRET, PUBLIC_REFRESH_TOKEN } from '$env/static/public';
+import type { SpotifyData } from './types';
 
 const client_id = PUBLIC_CLIENT_ID;
 const client_secret = PUBLIC_CLIENT_SECRET;
@@ -34,7 +35,7 @@ export const getCurrentlyPlaying = async () => {
 	});
 
 	if (response.ok) {
-		return response.json();
+		return response.json() as Promise<SpotifyData>;
 	} else {
 		throw new Error(`Failed to fetch data from Spotify API: ${response.status}`);
 	}

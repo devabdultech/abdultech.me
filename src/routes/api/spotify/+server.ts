@@ -1,10 +1,9 @@
 import { json } from '@sveltejs/kit';
 import { getCurrentlyPlaying } from '$lib/spotify';
-import type { SpotifyData } from '$lib/types';
 
 export async function GET() {
 	try {
-		const currentlyPlaying: SpotifyData = await getCurrentlyPlaying();
+		const currentlyPlaying = await getCurrentlyPlaying();
 
 		return json({
 			isPlaying: true,
