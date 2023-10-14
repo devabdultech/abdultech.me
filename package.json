@@ -40,8 +40,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"axios": "^1.5.1",
+		"dotenv": "^16.3.1",
 		"gray-matter": "^4.0.3",
 		"lucide-svelte": "^0.263.0",
+		"querystring": "^0.2.1",
 		"rehype-slug": "^5.1.0",
 		"remark-toc": "^8.0.1",
 		"remark-unwrap-images": "^3.0.1",
