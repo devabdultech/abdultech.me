@@ -1,7 +1,13 @@
-<script>
+<script lang="ts">
+	import { io } from 'socket.io-client';
 	import { page } from '$app/stores';
 	import FirstSection from '../components/FirstSection.svelte';
 	import SecondSection from '../components/SecondSection.svelte';
+
+	const socket = io();
+	socket.on('eventFromServer', (message) => {
+		console.log(message);
+	});
 </script>
 
 <svelte:head>
