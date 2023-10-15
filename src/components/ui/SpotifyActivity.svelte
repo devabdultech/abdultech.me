@@ -2,15 +2,14 @@
 	import { onMount } from 'svelte';
 	import type { SpotifyData } from '$lib/types';
 
-	let responseData: any;
+	let data: SpotifyData;
 
 	async function fetchData() {
 		try {
 			const response = await fetch('/api/spotify');
 			if (response.ok) {
-				const data = await response.json();
-				responseData = data;
-				console.log('Data fetched successfully:', responseData);
+				data = await response.json();
+				console.log('Data fetched successfully:', data);
 			} else {
 				console.error('Failed to fetch data:', response.statusText);
 			}
@@ -25,9 +24,9 @@
 </script>
 
 <div class="text-white">
-	{#if responseData && responseData.data}
-		<p>Music name: {responseData.data.item.name}</p>
+	{#if data && data.item}
+		<p>Music name: {data.item.name}</p>
 	{:else}
-		<p>No data available.</p>
+		<p>Nothing is playing</p>
 	{/if}
 </div>

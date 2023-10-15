@@ -5,10 +5,7 @@ export async function GET() {
 	try {
 		const currentlyPlaying = await getCurrentlyPlaying();
 
-		return json({
-			isPlaying: true,
-			data: currentlyPlaying
-		});
+		return json(currentlyPlaying);
 	} catch (error) {
 		return json({
 			isPlaying: false,
