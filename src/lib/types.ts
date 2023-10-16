@@ -20,6 +20,7 @@ export interface SpotifyData {
 		album: {
 			name: string;
 			images: { height: number; url: string; width: number }[];
+			external_urls: { spotify: string };
 		};
 		artists: { name: string; external_urls: { spotify: string } }[];
 		external_urls: { spotify: string };
