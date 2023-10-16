@@ -1,8 +1,13 @@
-<script>
+<script lang="ts">
 	import '../styles/app.css';
 	import { onMount } from 'svelte';
 	import { ArrowUpIcon } from 'lucide-svelte';
 	import Loading from '../components/sections/Loading.svelte';
+
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 
 	let showArrow = false;
 	let firstVisit = true;
