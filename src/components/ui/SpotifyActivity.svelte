@@ -9,7 +9,6 @@
 			const response = await fetch('/api/spotify');
 			if (response.ok) {
 				data = await response.json();
-				console.log('Data fetched successfully:', data);
 			} else {
 				console.error('Failed to fetch data:', response.statusText);
 			}

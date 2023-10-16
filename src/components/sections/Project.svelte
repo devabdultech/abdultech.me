@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { SquareDashedBottomCodeIcon } from 'lucide-svelte';
 	import ProjectCard from '../ui/ProjectCard.svelte';
 	import projects from '../../data/projects.json';

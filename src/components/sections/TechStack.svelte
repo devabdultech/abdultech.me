@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import TechStackIcon from '../ui/TechStackIcon.svelte';
 	import { ArrowRightIcon, Code2Icon } from 'lucide-svelte';
 	import frontend from '../../data/frontend.json';

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	let currentYear = new Date().getFullYear();
 	import AbdulTechLogo from '../../components/ui/AbdulTechLogo.svelte';
 	import SocialCard from '../../components/ui/SocialCard.svelte';
