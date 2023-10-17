@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import socials from '../../data/socials.json';
 </script>
 

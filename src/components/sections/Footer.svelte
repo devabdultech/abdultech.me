@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import inspired from '../../data/inspired.json';
 	let currentYear = new Date().getFullYear();
 </script>
 
@@ -24,37 +25,18 @@
 				href="https://vercel.com"
 				target="_blank"
 				class="font-[400] transition-all duration-300 hover:text-textAccent">Vercel</a
-			>. The visual aesthetics were meticulously brought to life with creativity sparked from my
-			imagination.
+			>
 		</p>
-
 		<div class="flex flex-wrap gap-1">
 			<p class="">Inspired by the amazing works of:</p>
 			<ul class="flex gap-1 font-[400]">
-				<li>
-					<a
-						href="https://antfu.me/"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="transition-colors duration-300 hover:text-textAccent">antfu.me</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://brittanychiang.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="transition-colors duration-300 hover:text-textAccent">brittanychiang.com</a
-					>
-				</li>
-				<li>
-					<a
-						href="https://www.trulyao.dev/"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="transition-colors duration-300 hover:text-textAccent">trulyao.dev</a
-					>
-				</li>
+				{#each inspired as { name, url }}
+					<li>
+						<a href={url} target="_blank" class="transition-all duration-300 hover:text-textAccent">
+							{name}
+						</a>
+					</li>
+				{/each}
 			</ul>
 		</div>
 

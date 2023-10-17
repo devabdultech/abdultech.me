@@ -11,7 +11,6 @@ export async function GET() {
 					controller.enqueue(`data: ${data}\n\n`);
 				} catch (error) {
 					controller.error(error);
-					controller.close();
 				}
 			}, 1000);
 		},
