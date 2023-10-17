@@ -8,11 +8,11 @@
 		const eventSource = new EventSource('/api/spotify');
 		eventSource.onmessage = (event) => {
 			data = JSON.parse(event.data);
-			console.log(data.item);
+			// console.log(data.item);
 		};
 
 		eventSource.onerror = (error) => {
-			console.log('Error receiving SSE stream:', error);
+			// console.log('Error receiving SSE stream:', error);
 		};
 	});
 </script>
@@ -47,8 +47,10 @@
 
 					<h3>
 						by {#each data.item.artists as artist, index}
-							<a class="hover:underline" href={artist.external_urls.spotify} target="_blank"
-								>{artist.name}</a
+							<a
+								class="font-medium hover:underline"
+								href={artist.external_urls.spotify}
+								target="_blank">{artist.name}</a
 							>{#if index < data.item.artists.length - 1},
 							{/if}
 						{/each}
@@ -56,7 +58,7 @@
 
 					<h3>
 						on <a
-							class="hover:underline"
+							class="font-medium hover:underline"
 							href={data.item.album.external_urls.spotify}
 							target="_blank">{data.item.album.name}</a
 						>
