@@ -4,7 +4,7 @@
 		"name": "AI Platform Web App",
 		"description": "AI playground using NextJS, TypeScript, Tailwind CSS, and Replicate APIs.",
 		"image_src": "./project/ai-platform.png",
-		"github_url": "https://github.com/Abdulhameed735/ai-platform",
+		"github_url": "https://github.com/devabdultech/ai-platform",
 		"website_url": "https://abdultech-ai-platform.vercel.app/",
 		"tech_stack": ["NextJS", "TS", "Replicate API"]
 	},
@@ -13,7 +13,7 @@
 		"name": "Disney+ Clone",
 		"description": "Developed a beautiful Disney+ clone with React, Tailwind CSS, Firebase, and TMDB API.",
 		"image_src": "./project/disney-clone-1.png",
-		"github_url": "https://github.com/Abdulhameed735/disney-plus",
+		"github_url": "https://github.com/devabdultech/disney-plus",
 		"website_url": "https://abduls-disney.netlify.app/",
 		"tech_stack": ["React", "Firebase", "TMDB API"]
 	},
@@ -22,7 +22,7 @@
 		"name": "Reddit clone",
 		"description": "A Reddit interface clone built with NextJS, Tailwind CSS, and Clerk.",
 		"image_src": "./project/reddit-clone.png",
-		"github_url": "https://github.com/Abdulhameed735/reddit-clone-nextjs",
+		"github_url": "https://github.com/devabdultech/reddit-clone-nextjs",
 		"website_url": "https://reddit-clone-nextjs-seven.vercel.app/",
 		"tech_stack": ["NextJS", "TS", "Clerk"]
 	},
@@ -31,7 +31,7 @@
 		"name": "Password Generator CLI",
 		"description": "A simple password generator CLI built with NodeJS, Typescript, Commander.",
 		"image_src": "./project/ai-platform.png",
-		"github_url": "https://github.com/Abdulhameed735/node-password-generator-cli",
+		"github_url": "https://github.com/devabdultech/node-password-generator-cli",
 		"website_url": "",
 		"tech_stack": ["NodeJS", "TS", "Commander"]
 	},
@@ -40,7 +40,7 @@
 		"name": "URL Magic box",
 		"description": "Developed with TypeScript, MongoDB, and Mongoose. Shortens and lengthens urls while tracking clicks.",
 		"image_src": "./project/url-magicbox.png",
-		"github_url": "https://github.com/Abdulhameed735/url-magicbox",
+		"github_url": "https://github.com/devabdultech/url-magicbox",
 		"website_url": "https://url-magicbox.vercel.app/",
 		"tech_stack": ["NodeJS", "ExpressJS", "TS", "MongoDB"]
 	},
@@ -49,7 +49,7 @@
 		"name": "Spotify Activity",
 		"description": "Dive into a world of data-driven discovery, all while enjoying the tunes that define your moments. Unveil your musical story with Spotify-Activity",
 		"image_src": "./project/spotify-activity.png",
-		"github_url": "https://github.com/Abdulhameed735/spotify-activity",
+		"github_url": "https://github.com/devabdultech/spotify-activity",
 		"website_url": "https://abdultech-spotify-activity.vercel.app/",
 		"tech_stack": ["NextJS", "NextAuth", "TS", "Spotify API"]
 	}
