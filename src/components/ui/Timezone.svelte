@@ -7,7 +7,11 @@
 		const timeZone: string = 'Africa/Lagos';
 
 		const updateTime = () => {
-			currentTime = new Date().toLocaleTimeString('en-US', { timeZone });
+			currentTime = new Date().toLocaleTimeString('en-US', {
+				timeZone,
+				timeStyle: 'short',
+				hour12: false
+			});
 		};
 
 		updateTime();
@@ -18,4 +22,4 @@
 	onMount(displayTime);
 </script>
 
-<p class="text-lg text-green-400">Current time: {currentTime}</p>
+<p class="text-lg text-green-400">Current time: {currentTime} in 🇳🇬</p>

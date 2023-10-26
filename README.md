@@ -1,38 +1,29 @@
-# create-svelte
+# My Personal Site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is my first personal website, where I showcase my projects and share my thoughts on various topics related to technology. I will probably be updating it soon.
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+This website was developed using [SvelteKit](https://kit.svelte.dev/), styled with [Tailwind CSS](https://tailwindcss.com/) and hosted on [Vercel](https://vercel.com/).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Usage
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+If you would like to use this template for your own personal site, feel free to fork this repository and modify it to suit your needs. You can also use this template as a starting point for your own custom website.
 
-## Developing
+## Contributing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+If you find any issues with this website or would like to suggest improvements, please feel free to submit a pull request or open an issue on the repository.
 
-```bash
-npm run dev
+## Inspiration
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+This website was inspired by the following sites:
 
-## Building
+- [antfu.me](https://antfu.me/)
+- [tryulao.dev](https://tryulao.dev/)
+- [brittanychiang.com](https://brittanychiang.com/)
 
-To create a production version of your app:
+I would like to thank the creators of these sites for their amazing work and for inspiring me to create my own personal site.
 
-```bash
-npm run build
-```
+## License
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This website is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
