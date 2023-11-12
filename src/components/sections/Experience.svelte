@@ -23,7 +23,7 @@
 			<span
 				class="border-b border-transparent pb-px transition group-hover:border-textAccent motion-reduce:transition-none"
 			>
-				Embark on my professional adventure - Résumé
+				View Full Résumé
 			</span>
 			<span class="whitespace-nowrap">
 				<ArrowRightIcon
