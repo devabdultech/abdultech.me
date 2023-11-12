@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { ArrowRightIcon } from 'lucide-svelte';
-
 	export let title: string;
 	export let description: string;
 	export let link: string;
@@ -11,7 +9,7 @@
 </script>
 
 <a
-	class="rounded-lg border border-[#0A1512] px-3 py-4 hover:bg-[#040907] lg:px-4 lg:py-6"
+	class="rounded-lg border border-white px-3 py-4 hover:bg-[#040907] lg:px-4 lg:py-6"
 	href={`/thoughts/${link}`}
 	aria-label="read writings"
 >

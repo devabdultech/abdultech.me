@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 body {
-	@apply h-full w-full bg-background bg-grainy from-[#161d1a] from-10% to-background to-90%;
+	@apply bg h-full w-full;
 	width: 100%;
 	height: 100%;
+}
+
+.bg {
+	background-image: linear-gradient(90deg, #101010, rgba(0, 0, 0, 0.83)),
+		linear-gradient(#64ffda 1px, transparent 0), linear-gradient(90deg, #64ffda 1px, #000 0);
+	background-size:
+		auto,
+		auto,
+		20px 20px,
+		20px 20px;
 }
 
 .active > span {

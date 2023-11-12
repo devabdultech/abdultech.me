@@ -10,9 +10,6 @@ export default {
 				textAccent: '#64FFDA',
 				buttonGradient: 'linear-gradient(135deg, #122D22 50%, #265842 50%, #122D22 40%)'
 			},
-			backgroundImage: {
-				grainy: "url('/custom/grainy.svg')"
-			},
 			cursor: {
 				laptop: "url('/custom/Laptop.cur'), pointer",
 				pepper: "url('/custom/pepper.cur'), pointer"
