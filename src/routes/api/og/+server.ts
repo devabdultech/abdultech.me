@@ -6,7 +6,7 @@ export const GET: RequestHandler = async () => {
 	const template = html`
 	<div tw="w-[1200px] h-[630px] flex flex-col items-center justify-center text-center">
   <div
-  tw="bg-bg w-full h-full flex"
+  tw="bg w-full h-full flex"
   style={{
     backgroundImage:
       "linear-gradient(to top right, rgba(24,24,27,.5), rgba(63,63,70,.3))",
