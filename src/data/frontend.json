@@ -24,11 +24,7 @@
 		"name": "TailwindCSS"
 	},
 	{
-		"id": 7,
-		"name": "Bootstrap"
-	},
-	{
-		"id": 8,
-		"name": "MUI"
+		"id": 9,
+		"name": "Turborepo"
 	}
 ]
