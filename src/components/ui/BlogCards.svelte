@@ -9,7 +9,7 @@
 </script>
 
 <a
-	class="rounded-lg border border-white px-3 py-4 hover:bg-[#040907] lg:px-4 lg:py-6"
+	class="transform-gpu rounded-lg border border-white px-3 py-4 transition-all duration-500 will-change-transform hover:bg-[#040907] lg:px-4 lg:py-6"
 	href={`/thoughts/${link}`}
 	aria-label="read writings"
 >
