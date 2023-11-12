@@ -6,10 +6,15 @@ export const GET: RequestHandler = async () => {
 	const template = html`
 	<div tw="w-[1200px] h-[630px] flex flex-col items-center justify-center text-center">
   <div
-  tw="bg w-full h-full flex"
+  tw="bg-black w-full h-full flex"
   style={{
-    backgroundImage:
-      "linear-gradient(to top right, rgba(24,24,27,.5), rgba(63,63,70,.3))",
+    background-image: linear-gradient(90deg, #101010, rgba(0, 0, 0, 0.83)), url('/noise.svg'),
+		linear-gradient(#b3fc03 1px, transparent 0), linear-gradient(90deg, #b3fc03 1px, #000 0);
+	background-size:
+		auto,
+		auto,
+		20px 20px,
+		20px 20px;
   }}
 >
           <div tw="flex flex-col text-3xl tracking-tight text-gray-300 w-full items-center h-full justify-center text-center">
