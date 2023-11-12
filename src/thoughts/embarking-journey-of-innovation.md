@@ -15,13 +15,13 @@ So, you're immersed in the audio, eager to absorb knowledge about your favorite 
 
 Now, here's the twist: That exact scenario happened to me, and it lit up a lightbulb in my mind.
 
-Now, this realization has become my driving force. I can't help but think about those who rely on  [TTS (Text-to-Speech)](https://simple.wikipedia.org/wiki/Text_to_Speech) services for web accessibility.
+Now, this realization has become my driving force. I can't help but think about those who rely on [TTS (Text-to-Speech)](https://simple.wikipedia.org/wiki/Text_to_Speech) services for web accessibility.
 
 ## **Is the web truly accessible ?**
 
 That got me thinking, what people who had difficulty reading faced when surfing the web, We're in an age where web accessibility is often taken for granted. I've seen posts and articles praising how accessible the web has become. Don't get me wrong, it's true that significant improvements have been made, and I've personally witnessed the remarkable evolution of web pages and websites.
 
-However, I couldn't help but wonder, is the web **'truly accessible'** to everybody? This question lingered in my mind as I recalled scenes from movies where blind individuals navigate the internet using TTS services. What struck me was that these TTS services often read text painstakingly slowly, sometimes letter by letter.  I've never thought about why this was happening and it just hit me like a lightning bolt, the current TTS services we have rn suckssssss, to the everyday person maybe not so much, for the people who actually need it the most, clearlyyyyy it does.
+However, I couldn't help but wonder, is the web **'truly accessible'** to everybody? This question lingered in my mind as I recalled scenes from movies where blind individuals navigate the internet using TTS services. What struck me was that these TTS services often read text painstakingly slowly, sometimes letter by letter. I've never thought about why this was happening and it just hit me like a lightning bolt, the current TTS services we have rn suckssssss, to the everyday person maybe not so much, for the people who actually need it the most, clearlyyyyy it does.
 
 ## **The webs ~~default language~~ - Times are changing!!!**
 
@@ -31,8 +31,8 @@ Imagine someone relying on TTS services to learn about the latest technology tre
 
 ## **Exciting journey ahead**
 
-So, here's where my journey begins. I stumbled upon the realization that there's an opportunity to bridge a gap in web accessibility. But how? tbh, I didn't have all the answers. I obviously did some research and a quick google search got me to know what I needed to know to get a solution. But how?  I only know how to develop web applications using trending frameworks and was comfortable with one language - JavaScript. However, that wasn't going to cut it for this challenge.
+So, here's where my journey begins. I stumbled upon the realization that there's an opportunity to bridge a gap in web accessibility. But how? tbh, I didn't have all the answers. I obviously did some research and a quick google search got me to know what I needed to know to get a solution. But how? I only know how to develop web applications using trending frameworks and was comfortable with one language - JavaScript. However, that wasn't going to cut it for this challenge.
 
-So I am diving headfirst into the world of learning particularly Python and the intricacies of [NLP (Natural Language Processing)](https://en.wikipedia.org/wiki/Natural_language_processing), [ML (Machine Learning)](https://en.wikipedia.org/wiki/Machine_learning) and [speech synthesis](https://en.wikipedia.org/wiki/Speech_synthesis). Over the next three months, I'll be dedicated to learning what is necessary to craft a "simple solution" that bridges this gap in web accessibility. My goal is to ensure that web content is not just 'readable' but 'understandable' for everyone. THREE MONTHS!!!! WOWWW. fr I know, can I do this? yeah I think so,  I just wanted to give myself a time frame so I put in more effort to meet the time frame I set.  
+So I am diving headfirst into the world of learning particularly Python and the intricacies of [NLP (Natural Language Processing)](https://en.wikipedia.org/wiki/Natural_language_processing), [ML (Machine Learning)](https://en.wikipedia.org/wiki/Machine_learning) and [speech synthesis](https://en.wikipedia.org/wiki/Speech_synthesis). Over the next three months, I'll be dedicated to learning what is necessary to craft a "simple solution" that bridges this gap in web accessibility. My goal is to ensure that web content is not just 'readable' but 'understandable' for everyone. THREE MONTHS!!!! WOWWW. fr I know, can I do this? yeah I think so, I just wanted to give myself a time frame so I put in more effort to meet the time frame I set.
 
-Stay tuned as I delve into this adventure, weaving code and creativity to make web content more accessible and comprehensible. Who knows where this path will lead, but I'm excited to find out. Wish me luck.  Ciao :)
+Stay tuned as I delve into this adventure, weaving code and creativity to make web content more accessible and comprehensible. Who knows where this path will lead, but I'm excited to find out. Wish me luck. Ciao :)
