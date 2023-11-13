@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { ArrowRightIcon } from 'lucide-svelte';
+	import Accordion from '../ui/Accordion.svelte';
 </script>
 
 <div
@@ -9,9 +10,8 @@
 	<h1 class="font-inter mb-4 flex items-center gap-2 text-2xl font-bold uppercase lg:text-3xl">
 		Experience
 	</h1>
-	<p class="text-lg font-[300] leading-relaxed text-textPrimary">
-		No experience yet, but I'm looking for an internship
-	</p>
+
+	<Accordion />
 
 	<div class="mt-12">
 		<a
