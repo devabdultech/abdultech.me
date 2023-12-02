@@ -26,8 +26,8 @@
 		);
 	};
 
-	let showConfetti = false;
-	let hoverConfetti = false;
+	let showConfetti: boolean = false;
+	let hoverConfetti: boolean = false;
 
 	onMount(() => {
 		if (isBirthday()) {
