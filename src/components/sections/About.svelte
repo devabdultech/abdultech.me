@@ -19,7 +19,7 @@
 
 	const isBirthday = () => {
 		const currentDate = new Date();
-		const birthday = new Date(currentDate.getFullYear(), 11, 2);
+		const birthday = new Date(currentDate.getFullYear(), 11, 9);
 
 		return (
 			currentDate.getMonth() === birthday.getMonth() && currentDate.getDate() === birthday.getDate()
