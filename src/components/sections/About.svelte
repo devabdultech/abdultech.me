@@ -27,6 +27,7 @@
 	};
 
 	let showConfetti = false;
+	let hoverConfetti = false;
 
 	onMount(() => {
 		if (isBirthday()) {
@@ -35,17 +36,17 @@
 	});
 </script>
 
-{#if showConfetti}
+{#if showConfetti || hoverConfetti}
 	<div
 		class="pointer-events-none fixed left-0 top-[-50px] flex h-screen w-screen justify-center overflow-hidden"
 	>
 		<Confetti
 			x={[-5, 5]}
 			y={[0, 0.1]}
-			delay={[0, 3000]}
+			delay={[0, 5000]}
 			infinite={false}
 			size={15}
-			duration={2500}
+			duration={5000}
 			amount={150}
 			fallDistance="100vh"
 		/>
@@ -64,7 +65,17 @@
 		class="slide-enter-content font-space flex flex-col gap-y-3 text-lg font-[300] leading-relaxed text-textPrimary"
 	>
 		<p>
-			I'm a {myAge} year old self-taught developer currently studying
+			I'm a <span
+				role="button"
+				on:mouseenter={() => (hoverConfetti = true)}
+				on:mouseleave={() => (hoverConfetti = false)}
+				on:click={() => (hoverConfetti = true)}
+				on:keydown={(event) => event.key === 'Enter' && (hoverConfetti = true)}
+				tabindex="0"
+				class="cursor-pointer font-bold text-textAccent hover:underline">{myAge}</span
+			>
+
+			year old self-taught developer currently studying
 			<a
 				href="https://en.wikipedia.org/wiki/Computer_science"
 				target="_blank"
