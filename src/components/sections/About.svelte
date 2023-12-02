@@ -42,7 +42,7 @@
 		<Confetti
 			x={[-5, 5]}
 			y={[0, 0.1]}
-			delay={[500, 2000]}
+			delay={[50, 2000]}
 			infinite={false}
 			size={15}
 			duration={2500}
