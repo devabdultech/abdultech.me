@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { Confetti } from 'svelte-confetti';
+
 	function calculateAge(dateOfBirth: string) {
 		const dob = new Date(dateOfBirth);
 		const currentDate = new Date();
@@ -13,7 +16,41 @@
 	}
 
 	const myAge = calculateAge('2005-12-09');
+
+	const isBirthday = () => {
+		const currentDate = new Date();
+		const birthday = new Date(currentDate.getFullYear(), 11, 2);
+
+		return (
+			currentDate.getMonth() === birthday.getMonth() && currentDate.getDate() === birthday.getDate()
+		);
+	};
+
+	let showConfetti = false;
+
+	onMount(() => {
+		if (isBirthday()) {
+			showConfetti = true;
+		}
+	});
 </script>
+
+{#if showConfetti}
+	<div
+		class="pointer-events-none fixed left-0 top-[-50px] flex h-screen w-screen justify-center overflow-hidden"
+	>
+		<Confetti
+			x={[-5, 5]}
+			y={[0, 0.1]}
+			delay={[500, 2000]}
+			infinite={false}
+			size={15}
+			duration={2500}
+			amount={150}
+			fallDistance="100vh"
+		/>
+	</div>
+{/if}
 
 <div
 	id="about"
@@ -35,20 +72,17 @@
 			>
 				cs
 			</a>
-		from Nigeria.
-			I love diving into various tools,
+			from Nigeria. I love diving into various tools,
 			<a
 				href="https://en.wikipedia.org/wiki/Programming_language"
 				target="_blank"
-				class="text-textAccent"
-				>programming languages</a
+				class="text-textAccent">programming languages</a
 			>
 			and
 			<a
 				href="https://en.wikipedia.org/wiki/Application_framework"
 				target="_blank"
-				class="text-textAccent"
-				>frameworks</a
+				class="text-textAccent">frameworks</a
 			> to expand my knowledge and skills.
 		</p>
 
@@ -57,8 +91,7 @@
 			<a
 				href="https://en.wikipedia.org/wiki/Software_engineer"
 				target="_blank"
-				class="text-textAccent"
-				>developer</a
+				class="text-textAccent">developer</a
 			>
 			is not just a job for me; it's a way of life. I'm always exploring new ideas and experimenting
 			with different technologies. I always strive to push the boundaries and improve my craft. I aim
@@ -71,18 +104,14 @@
 			<a
 				href="https://en.wikipedia.org/wiki/Computer_software"
 				target="_blank"
-				class="text-textAccent"
-				>software</a
+				class="text-textAccent">software</a
 			>
 			more efficient and effective keeps me going.
 		</p>
 
 		<p>
 			Still exploring the world of
-			<a
-				href="https://en.wikipedia.org/wiki/Open_source"
-				target="_blank"
-				class="text-textAccent"
+			<a href="https://en.wikipedia.org/wiki/Open_source" target="_blank" class="text-textAccent"
 				>open source,</a
 			> and I'm eager to contribute to cool and helpful projects ✨
 		</p>
