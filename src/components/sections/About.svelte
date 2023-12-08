@@ -67,10 +67,18 @@
 		<p>
 			I'm a <span
 				role="button"
-				on:mouseenter={() => (if (isBirthday()) showConfetti = true)}
-				on:mouseleave={() => (if (isBirthday()) showConfetti = false)}
-				on:click={() => (if (isBirthday()) showConfetti = true)}
-				on:keydown={(event) => event.key === 'Enter' && (if (isBirthday()) showConfetti = true)}
+				on:mouseenter={() => {
+					if (isBirthday()) showConfetti = true;
+				}}
+				on:mouseleave={() => {
+					if (isBirthday()) showConfetti = false;
+				}}
+				on:click={() => {
+					if (isBirthday()) showConfetti = true;
+				}}
+				on:keydown={(event) => {
+					if (event.key === 'Enter' && isBirthday()) showConfetti = true;
+				}}
 				tabindex="0"
 				class="cursor-pointer font-bold text-textAccent hover:underline">{myAge}</span
 			>
