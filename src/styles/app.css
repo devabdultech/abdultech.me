@@ -9,7 +9,7 @@ body {
 }
 
 .bg {
-	background-image: linear-gradient(90deg, #101010, rgba(0, 0, 0, 0.83)), url('/noise.svg'),
+	background-image: linear-gradient(90deg, #101010, rgba(0, 0, 0, 0.83)),
 		linear-gradient(#b3fc03 1px, transparent 0), linear-gradient(90deg, #b3fc03 1px, #000 0);
 	background-size:
 		auto,
