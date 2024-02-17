@@ -11,17 +11,9 @@
 	const items = [
 		{
 			id: 'item-1',
-			title: 'Software Enginneer',
-			company: 'Monos AI',
-			year: '2023 - Present',
-			description:
-				'Worked on website and backend development for a startup that uses AI to help people with know more about Islam. I worked on the website and backend development using React, Next.js, and Node.js.'
-		},
-		{
-			id: 'item-2',
 			title: 'Software Enginneer Intern',
 			company: 'Monos AI',
-			year: '2023 - Present',
+			year: '2023 - 2024',
 			description:
 				'Worked on website and backend development for a startup that uses AI to help people with know more about Islam. I worked on the website and backend development using React, Next.js, and Node.js.'
 		}
