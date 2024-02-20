@@ -65,7 +65,7 @@
 		class="slide-enter-content font-space flex flex-col gap-y-3 text-lg font-[300] leading-relaxed text-textPrimary"
 	>
 		<p>
-			I'm a <span
+			I'm an <span
 				role="button"
 				on:mouseenter={() => {
 					if (isBirthday()) showConfetti = true;
