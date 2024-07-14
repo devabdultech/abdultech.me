@@ -1,9 +1,9 @@
 import { preprocessMeltUI } from '@melt-ui/pp';
 import sequence from 'svelte-sequential-preprocessor';
 import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { escapeSvelte, mdsvex } from 'mdsvex';
-import shiki from 'shiki';
+import { createHighlighter } from 'shiki';
 import remarkUnwrapImages from 'remark-unwrap-images';
 import remarkToc from 'remark-toc';
 import rehypeSlug from 'rehype-slug';
@@ -13,7 +13,7 @@ const mdsvexOptions = {
 	smartypants: true,
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
-			const highlighter = await shiki.getHighlighter({
+			const highlighter = await createHighlighter({
 				theme: 'nord'
 			});
 			const html = escapeSvelte(
