@@ -4,34 +4,44 @@
 	import { ArrowUpIcon } from 'lucide-svelte';
 	import Loading from '../components/sections/Loading.svelte';
 
-	import { dev } from '$app/environment';
+	import { dev, browser } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 
 	inject({ mode: dev ? 'development' : 'production' });
 
 	let showArrow = false;
-	let firstVisit = true;
+	let firstVisit = browser ? window.localStorage.getItem('firstVisit') === 'true' : null;
 
 	onMount(() => {
-		window.addEventListener('scroll', () => {
-			const threshold = 250;
-			showArrow = window.scrollY > threshold;
-		});
+		if (browser) {
+			firstVisit = window.localStorage.getItem('firstVisit') === 'true';
+			console.log(firstVisit);
 
-		setTimeout(() => {
-			firstVisit = false;
-		}, 1500);
+			window.addEventListener('scroll', () => {
+				const threshold = 250;
+				showArrow = window.scrollY > threshold;
+			});
+
+			setTimeout(() => {
+				firstVisit = false;
+				window.localStorage.setItem('firstVisit', 'false');
+			}, 1500);
+		}
 	});
 
 	function scrollToTop() {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		if (browser) {
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		}
 	}
 </script>
 
 <main>
 	<div class="mx-auto min-h-screen px-4 py-5 md:px-12 md:py-20 lg:px-24 lg:py-0">
-		{#if firstVisit}
+		{#if firstVisit === true}
 			<Loading />
+		{:else if firstVisit === null}
+			{' '}
 		{:else}
 			<slot />
 		{/if}
