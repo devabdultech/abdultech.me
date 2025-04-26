@@ -23,7 +23,7 @@
 <div class="w-full max-w-full" {...$root}>
 	{#each items as { id, title, year, company, description }, i}
 		<div use:melt={$item(id)} class="overflow-hidden border-b border-neutral-400 transition-colors">
-			<h2 class="flex">
+			<div class="flex">
 				<button
 					use:melt={$trigger(id)}
 					class="
@@ -46,7 +46,7 @@
 					<h3 class="text-sm font-medium">{company}</h3>
 					<h3 class="text-sm font-medium text-neutral-100">{year}</h3>
 				</button>
-			</h2>
+			</div>
 			{#if $isSelected(id)}
 				<div
 					class="
